@@ -1,0 +1,5036 @@
+{
+  "schema_version": "2.6",
+  "prompt_version": "2.6.1",
+  "audit_id": "AUD-2026-11-02-NWCR-001",
+  "export_contract": "single_json",
+  "site": "https://www.example-coffee.com/",
+  "brand": "Northwind Coffee Roasters",
+  "audit_date": "2026-11-02",
+  "auditor": "AI SEO Codex — seo_master_audit_codex_v2.6.1.md",
+  "pages_audited": [
+    "https://www.example-coffee.com/",
+    "https://www.example-coffee.com/shop",
+    "https://www.example-coffee.com/shop/house-espresso-blend",
+    "https://www.example-coffee.com/shop/single-origin-highlands",
+    "https://www.example-coffee.com/shop/swiss-water-decaf",
+    "https://www.example-coffee.com/subscriptions",
+    "https://www.example-coffee.com/wholesale",
+    "https://www.example-coffee.com/cafes",
+    "https://www.example-coffee.com/cafes/riverside",
+    "https://www.example-coffee.com/cafes/old-town",
+    "https://www.example-coffee.com/about",
+    "https://www.example-coffee.com/blog",
+    "https://www.example-coffee.com/blog/pour-over-brew-guide",
+    "https://www.example-coffee.com/blog/espresso-grind-guide",
+    "https://www.example-coffee.com/blog/how-to-store-coffee",
+    "https://www.example-coffee.com/faq",
+    "https://www.example-coffee.com/contact",
+    "https://www.example-coffee.com/es/",
+    "https://www.example-coffee.com/menu-2023",
+    "https://www.example-coffee.com/old-shop"
+  ],
+  "audit_info": {
+    "site_url": "https://www.example-coffee.com/",
+    "audit_date": "2026-11-02",
+    "auditor": "AI SEO Codex — seo_master_audit_codex_v2.6.1.md",
+    "pages_found": 21,
+    "pages_audited": 20,
+    "audit_completion": "95%",
+    "url_discovery_method": "sitemap + navigation_parsing + pattern_probing",
+    "sitemap_available": true,
+    "discovery_confidence": "high",
+    "audit_duration_minutes": 55,
+    "scope": "full",
+    "methodology_version": "v2.6.1"
+  },
+  "url_discovery": {
+    "method_used": "sitemap + navigation_parsing + pattern_probing",
+    "sitemap_available": true,
+    "homepage_links_found": 17,
+    "recursive_links_found": 3,
+    "js_routes_found": 0,
+    "common_patterns_found": 2,
+    "total_urls_discovered": 21,
+    "valid_urls_200": 19,
+    "invalid_urls_404": 1,
+    "invalid_urls": 1,
+    "coverage_percentage": 95,
+    "sitemap_check_result": "available",
+    "robots_txt_check_result": "available",
+    "discovery_notes": "Sitemap listed 16 URLs; navigation parsing added /es/ and two blog posts; pattern probing found two legacy URLs.",
+    "missed_pages_likely": [
+      "Seasonal limited-edition product pages",
+      "Gift card page linked only from checkout"
+    ],
+    "discovered_urls": [
+      "https://www.example-coffee.com/",
+      "https://www.example-coffee.com/shop",
+      "https://www.example-coffee.com/shop/house-espresso-blend",
+      "https://www.example-coffee.com/shop/single-origin-highlands",
+      "https://www.example-coffee.com/shop/swiss-water-decaf",
+      "https://www.example-coffee.com/subscriptions",
+      "https://www.example-coffee.com/wholesale",
+      "https://www.example-coffee.com/cafes",
+      "https://www.example-coffee.com/cafes/riverside",
+      "https://www.example-coffee.com/cafes/old-town",
+      "https://www.example-coffee.com/about",
+      "https://www.example-coffee.com/blog",
+      "https://www.example-coffee.com/blog/pour-over-brew-guide",
+      "https://www.example-coffee.com/blog/espresso-grind-guide",
+      "https://www.example-coffee.com/blog/how-to-store-coffee",
+      "https://www.example-coffee.com/faq",
+      "https://www.example-coffee.com/contact",
+      "https://www.example-coffee.com/es/",
+      "https://www.example-coffee.com/menu-2023",
+      "https://www.example-coffee.com/old-shop",
+      "https://www.example-coffee.com/blog/cold-brew-recipe"
+    ],
+    "http_validation": {
+      "denominator": "21 unique URLs requested once each (retries not counted).",
+      "responses_received": 21,
+      "status_200": 19,
+      "status_404": 1,
+      "status_429_rate_limited": 1,
+      "timeouts_or_network_errors": 0,
+      "not_retrieved": 1,
+      "soft_404_home_among_200": 1,
+      "shell_stubs_among_200": 0
+    }
+  },
+  "summary": {
+    "total_checks": 85,
+    "passed": 36,
+    "warnings": 40,
+    "failed": 6,
+    "not_tested": 2,
+    "not_applicable": 1,
+    "health_percentage": 44,
+    "critical_blockers": 2,
+    "note": "Solid technical base and good brew-guide content. The biggest gaps are local/entity structured data, soft-404 hygiene and AI-search readiness."
+  },
+  "overall_scores": {
+    "seo_score": 6.4,
+    "ai_visibility_score": 4.8,
+    "technical_seo_score": 7.0,
+    "content_seo_score": 6.2,
+    "user_experience_score": 7.4,
+    "local_seo_score": 4.0
+  },
+  "visual_config": {
+    "brand_color": "#7c4a2d",
+    "success_threshold": 7.0,
+    "warning_threshold": 4.0,
+    "show_charts": true,
+    "chart_type": "donut",
+    "dark_mode": false
+  },
+  "trend_data": {
+    "previous_audit_date": "2026-08-10",
+    "previous_seo_score": 5.1,
+    "previous_ai_score": 3.2,
+    "improvement": "+1.3 SEO and +1.6 AI visibility since the previous audit (sitemap and robots.txt fixed).",
+    "next_audit_recommended": "2026-12-14",
+    "methodology_note": "ai_visibility_score is a weighted composite of applicable audited layers, not only the AI Search layer score.",
+    "history": [
+      {
+        "version": "Audit 1",
+        "date": "2026-05-04",
+        "seo_score": 4.2,
+        "ai_visibility_score": 2.1,
+        "technical_seo_score": 4.8,
+        "content_seo_score": 5.0,
+        "notes": "Baseline: no sitemap, no robots.txt."
+      },
+      {
+        "version": "Audit 2",
+        "date": "2026-08-10",
+        "seo_score": 5.1,
+        "ai_visibility_score": 3.2,
+        "technical_seo_score": 6.1,
+        "content_seo_score": 5.6,
+        "notes": "Sitemap and robots.txt published."
+      },
+      {
+        "version": "Audit 3",
+        "date": "2026-11-02",
+        "seo_score": 6.4,
+        "ai_visibility_score": 4.8,
+        "technical_seo_score": 7.0,
+        "content_seo_score": 6.2,
+        "notes": "Brew guides and AI bot access added."
+      }
+    ]
+  },
+  "score_breakdown": {
+    "_note": "Grouped scores (on_page_seo, technical_seo, content_seo, local_seo) feed the dashboard; granular entries below are the detail.",
+    "on_page_seo": {
+      "score": 6.1,
+      "max": 10,
+      "status": "WARNING",
+      "components": [
+        "metadata_head",
+        "open_graph_sharing",
+        "structured_data",
+        "h1_presence",
+        "content_structure",
+        "navigation_consistency"
+      ]
+    },
+    "technical_seo": {
+      "score": 7.0,
+      "max": 10,
+      "status": "PASS",
+      "components": [
+        "crawling_indexing",
+        "technical_rendering",
+        "core_web_vitals",
+        "hreflang",
+        "mobile_responsive"
+      ]
+    },
+    "content_seo": {
+      "score": 6.2,
+      "max": 10,
+      "status": "WARNING",
+      "components": [
+        "content_structure",
+        "internal_linking",
+        "analytics_data",
+        "image_seo"
+      ]
+    },
+    "local_seo": {
+      "score": 4.0,
+      "max": 10,
+      "status": "WARNING",
+      "note": "Two physical cafés; local signals exist only as plain text."
+    },
+    "metadata_head": {
+      "score": 6.5,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 1.5,
+      "details_count": {
+        "pass": 3,
+        "fail": 3
+      },
+      "details": "3 checks passed, 3 need attention."
+    },
+    "open_graph_sharing": {
+      "score": 3.0,
+      "max": 10,
+      "status": "FAIL",
+      "weight": 1.2,
+      "details_count": {
+        "pass": 1,
+        "fail": 3
+      },
+      "details": "1 checks passed, 3 need attention."
+    },
+    "structured_data": {
+      "score": 5.0,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 1.8,
+      "details_count": {
+        "pass": 2,
+        "fail": 4
+      },
+      "details": "2 checks passed, 4 need attention."
+    },
+    "crawling_indexing": {
+      "score": 6.0,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 2.0,
+      "details_count": {
+        "pass": 3,
+        "fail": 3
+      },
+      "details": "3 checks passed, 3 need attention."
+    },
+    "ai_search": {
+      "score": 4.5,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 1.5,
+      "details_count": {
+        "pass": 2,
+        "fail": 3
+      },
+      "details": "2 checks passed, 3 need attention."
+    },
+    "content_structure": {
+      "score": 7.5,
+      "max": 10,
+      "status": "PASS",
+      "weight": 1.2,
+      "details_count": {
+        "pass": 3,
+        "fail": 1
+      },
+      "details": "3 checks passed, 1 need attention."
+    },
+    "technical_rendering": {
+      "score": 8.5,
+      "max": 10,
+      "status": "PASS",
+      "weight": 1.3,
+      "details_count": {
+        "pass": 3,
+        "fail": 0
+      },
+      "details": "3 checks passed, 0 need attention."
+    },
+    "internal_linking": {
+      "score": 6.0,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 1.0,
+      "details_count": {
+        "pass": 2,
+        "fail": 2
+      },
+      "details": "2 checks passed, 2 need attention."
+    },
+    "analytics_data": {
+      "score": 6.0,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 1.5,
+      "details_count": {
+        "pass": 2,
+        "fail": 2
+      },
+      "details": "2 checks passed, 2 need attention."
+    },
+    "core_web_vitals": {
+      "score": 6.5,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 1.0,
+      "details_count": {
+        "pass": 2,
+        "fail": 2
+      },
+      "details": "2 checks passed, 2 need attention."
+    },
+    "https_protocol": {
+      "score": 10.0,
+      "max": 10,
+      "status": "PASS",
+      "weight": 2.0,
+      "details_count": {
+        "pass": 3,
+        "fail": 0
+      },
+      "details": "3 checks passed, 0 need attention."
+    },
+    "charset_utf8": {
+      "score": 10.0,
+      "max": 10,
+      "status": "PASS",
+      "weight": 0.5,
+      "details_count": {
+        "pass": 1,
+        "fail": 0
+      },
+      "details": "1 checks passed, 0 need attention."
+    },
+    "viewport_tag": {
+      "score": 10.0,
+      "max": 10,
+      "status": "PASS",
+      "weight": 0.8,
+      "details_count": {
+        "pass": 1,
+        "fail": 0
+      },
+      "details": "1 checks passed, 0 need attention."
+    },
+    "google_fonts_preconnect": {
+      "score": 4.0,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 0.5,
+      "details_count": {
+        "pass": 0,
+        "fail": 1
+      },
+      "details": "0 checks passed, 1 need attention."
+    },
+    "hreflang": {
+      "score": 2.0,
+      "max": 10,
+      "status": "FAIL",
+      "weight": 0.5,
+      "details_count": {
+        "pass": 0,
+        "fail": 1
+      },
+      "details": "0 checks passed, 1 need attention."
+    },
+    "h1_presence": {
+      "score": 9.0,
+      "max": 10,
+      "status": "PASS",
+      "weight": 1.0,
+      "details_count": {
+        "pass": 16,
+        "fail": 1
+      },
+      "details": "16 checks passed, 1 need attention."
+    },
+    "navigation_consistency": {
+      "score": 9.0,
+      "max": 10,
+      "status": "PASS",
+      "weight": 0.8,
+      "details_count": {
+        "pass": 18,
+        "fail": 0
+      },
+      "details": "18 checks passed, 0 need attention."
+    },
+    "mobile_responsive": {
+      "score": 8.5,
+      "max": 10,
+      "status": "PASS",
+      "weight": 0.8,
+      "details_count": {
+        "pass": 18,
+        "fail": 0
+      },
+      "details": "18 checks passed, 0 need attention."
+    },
+    "image_seo": {
+      "score": 5.5,
+      "max": 10,
+      "status": "WARNING",
+      "weight": 0.8,
+      "details_count": {
+        "pass": 1,
+        "fail": 2
+      },
+      "details": "1 checks passed, 2 need attention."
+    }
+  },
+  "status_distribution": {
+    "PASS": 36,
+    "WARNING": 40,
+    "FAIL": 6,
+    "NOT_TESTED": 2,
+    "N/A": 1,
+    "total_checks": 85,
+    "pass_pct": 44,
+    "warning_pct": 49,
+    "fail_pct": 7
+  },
+  "quick_wins": [
+    {
+      "task": "Fix footer link to /old-shop",
+      "impact": "High",
+      "effort": "10 min",
+      "category": "Crawling & Indexing",
+      "impact_score": 7
+    },
+    {
+      "task": "Add hreflang pair between / and /es/",
+      "impact": "Medium",
+      "effort": "30 min",
+      "category": "Indexation Health",
+      "impact_score": 6
+    },
+    {
+      "task": "Write missing meta description for Single Origin Highlands",
+      "impact": "Medium",
+      "effort": "15 min",
+      "category": "Metadata & Head Tags",
+      "impact_score": 5
+    },
+    {
+      "task": "Publish llms.txt",
+      "impact": "Medium",
+      "effort": "45 min",
+      "category": "AI Search Optimization",
+      "impact_score": 6
+    },
+    {
+      "task": "Add twitter:card to base template",
+      "impact": "Medium",
+      "effort": "20 min",
+      "category": "Open Graph & Sharing",
+      "impact_score": 5
+    },
+    {
+      "task": "Preconnect to font host",
+      "impact": "Medium",
+      "effort": "10 min",
+      "category": "Performance SEO",
+      "impact_score": 4
+    }
+  ],
+  "priority_fixes": [
+    {
+      "category": "Critical",
+      "count": 2,
+      "estimated_time": "3 hours",
+      "items": [
+        {
+          "issue": "Soft 404 on /menu-2023 and footer link to 404 /old-shop",
+          "solution": "301 both URLs to live equivalents and update the footer",
+          "effort": "1 hour",
+          "impact_score": 8
+        },
+        {
+          "issue": "No LocalBusiness schema for the two cafés",
+          "solution": "Add CafeOrCoffeeShop JSON-LD with address, geo and opening hours",
+          "effort": "2 hours",
+          "impact_score": 8
+        }
+      ]
+    },
+    {
+      "category": "High",
+      "count": 3,
+      "estimated_time": "6 hours",
+      "items": [
+        {
+          "issue": "Organization entity under-specified; no llms.txt",
+          "solution": "Add sameAs, foundingDate, address; publish llms.txt",
+          "effort": "2.5 hours",
+          "impact_score": 7
+        },
+        {
+          "issue": "Single Origin Highlands lacks meta description and Product schema",
+          "solution": "Complete template fields and add Product + Offer JSON-LD",
+          "effort": "45 min",
+          "impact_score": 6
+        },
+        {
+          "issue": "Mobile LCP 3.4 s on home",
+          "solution": "Serve AVIF hero under 200 KB with fetchpriority=high",
+          "effort": "3 hours",
+          "impact_score": 7
+        }
+      ]
+    },
+    {
+      "category": "Medium",
+      "count": 3,
+      "estimated_time": "6.5 hours",
+      "items": [
+        {
+          "issue": "/es/ has no canonical or hreflang",
+          "solution": "Add reciprocal hreflang and self-canonicals",
+          "effort": "1 hour",
+          "impact_score": 5
+        },
+        {
+          "issue": "Open Graph missing on product and blog templates",
+          "solution": "Map OG/Twitter tags to template fields",
+          "effort": "1.5 hours",
+          "impact_score": 5
+        },
+        {
+          "issue": "No GA4 ecommerce events",
+          "solution": "Implement recommended ecommerce events and key events",
+          "effort": "4 hours",
+          "impact_score": 6
+        }
+      ]
+    },
+    {
+      "category": "Low",
+      "count": 1,
+      "estimated_time": "1 hour",
+      "items": [
+        {
+          "issue": "14 blog images without alt text",
+          "solution": "Backfill alt text and make it required in the CMS",
+          "effort": "1 hour",
+          "impact_score": 3
+        }
+      ]
+    }
+  ],
+  "estimated_impact": {
+    "traffic_increase": "Scenario: +10-20% organic sessions in 3 months if Critical and High fixes ship (no GSC baseline shared)",
+    "ai_search_visibility": "Clearer brand entity and llms.txt improve the chance of accurate AI-assistant mentions",
+    "indexing_speed": "Removing soft 404s and fixing sitemap gaps focuses crawling on real pages",
+    "rich_snippets": "Product and CafeOrCoffeeShop markup enable product and local rich results",
+    "social_ctr_increase": "Preview images on all shared product and blog links"
+  },
+  "expected_outcomes": {
+    "traffic_increase": "Scenario: +10-20% in 3 months",
+    "ranking_improvements": "Local café pages eligible for map pack results",
+    "conversion_impact": "Measurable once GA4 ecommerce events are live",
+    "timeline_to_results": "4-12 weeks after implementation",
+    "3_months": {
+      "organic_traffic_increase": "+10-20% (scenario)",
+      "technical_score_improvement": "7.0 → 8.0",
+      "ai_visibility_improvement": "4.8 → 6.0",
+      "rich_results_eligibility": "Products + 2 cafés"
+    },
+    "6_months": {
+      "organic_traffic_increase": "+20-35% (scenario)",
+      "local_search_visibility": "Both cafés in local pack for brand + area queries",
+      "ai_readiness": "Medium → High",
+      "lead_generation_increase": "Wholesale enquiries tracked"
+    },
+    "12_months": {
+      "market_authority": "Brew guides cited by AI assistants for how-to queries",
+      "roi_achievement": "Organic + AI referrals attributable to revenue",
+      "ranking_improvements": "Top 10 for 15+ brew-guide keywords (scenario)"
+    }
+  },
+  "implementation_roadmap": {
+    "week_1": [
+      "301 /menu-2023 and /old-shop; fix footer link (1 h)",
+      "Add CafeOrCoffeeShop JSON-LD to both café pages (2 h)"
+    ],
+    "week_2": [
+      "Expand Organization schema + publish llms.txt (2.5 h)",
+      "Complete Single Origin Highlands meta and Product schema (45 min)",
+      "Optimise home hero image and fonts (3 h)"
+    ],
+    "week_3": [
+      "Add hreflang + canonicals for /es/ (1 h)",
+      "Add OG/Twitter tags to product and blog templates (1.5 h)",
+      "Configure GA4 ecommerce events (4 h)"
+    ],
+    "week_4": [
+      "Backfill blog alt text (1 h)",
+      "Re-crawl and run validation plan",
+      "Run manual AI-visibility queries"
+    ]
+  },
+  "action_items": [
+    {
+      "id": 1,
+      "title": "Redirect legacy URLs and fix footer link",
+      "priority": "Critical",
+      "assignee": "Developer",
+      "estimated_hours": 1.0,
+      "layer_id": 4
+    },
+    {
+      "id": 2,
+      "title": "Add CafeOrCoffeeShop JSON-LD to each café page",
+      "priority": "Critical",
+      "assignee": "Developer",
+      "estimated_hours": 2.0,
+      "layer_id": 3
+    },
+    {
+      "id": 3,
+      "title": "Strengthen Organization entity and publish llms.txt",
+      "priority": "High",
+      "assignee": "Developer",
+      "estimated_hours": 2.5,
+      "layer_id": 5
+    },
+    {
+      "id": 4,
+      "title": "Complete product meta and schema",
+      "priority": "High",
+      "assignee": "Content editor",
+      "estimated_hours": 0.75,
+      "layer_id": 1
+    },
+    {
+      "id": 5,
+      "title": "Optimise hero image and fonts",
+      "priority": "High",
+      "assignee": "Developer",
+      "estimated_hours": 3.0,
+      "layer_id": 10
+    },
+    {
+      "id": 6,
+      "title": "Add hreflang pair and self-canonicals",
+      "priority": "Medium",
+      "assignee": "Developer",
+      "estimated_hours": 1.0,
+      "layer_id": 1
+    },
+    {
+      "id": 7,
+      "title": "Add Open Graph and Twitter Card tags to product and blog templates",
+      "priority": "Medium",
+      "assignee": "Developer",
+      "estimated_hours": 1.5,
+      "layer_id": 2
+    },
+    {
+      "id": 8,
+      "title": "Configure GA4 ecommerce events",
+      "priority": "Medium",
+      "assignee": "Analytics",
+      "estimated_hours": 4.0,
+      "layer_id": 9
+    },
+    {
+      "id": 9,
+      "title": "Add alt text to blog images",
+      "priority": "Low",
+      "assignee": "Content editor",
+      "estimated_hours": 1.0,
+      "layer_id": 20
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "Metadata & Head Tags",
+      "status": "WARNING",
+      "score": 6.5,
+      "related_layers": [
+        2,
+        3
+      ],
+      "dependency_note": "Changes here affect layers 2, 3.",
+      "pass_items": [
+        "Unique <title> on 17 of 18 indexable pages",
+        "charset UTF-8 and viewport declared everywhere",
+        "Titles within 30-60 characters on 15 pages"
+      ],
+      "fail_items": [
+        "Meta description missing on /shop/single-origin-highlands",
+        "Canonical tag missing on 2 pages (/blog/how-to-store-coffee, /es/)",
+        "No theme-color meta"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-001",
+        "CHK-002",
+        "CHK-003",
+        "CHK-004",
+        "CHK-005",
+        "CHK-006"
+      ],
+      "issue_ids": [
+        "ISS-004",
+        "ISS-006"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Open Graph & Sharing",
+      "status": "FAIL",
+      "score": 3.0,
+      "related_layers": [
+        1
+      ],
+      "dependency_note": "Changes here affect layers 1.",
+      "pass_items": [
+        "og:title and og:image present on home, /shop and /subscriptions"
+      ],
+      "fail_items": [
+        "og:image missing on all product pages",
+        "twitter:card not declared on any page",
+        "Blog posts share without preview image"
+      ],
+      "pages_affected": [
+        "All pages"
+      ],
+      "checks_ids": [
+        "CHK-007",
+        "CHK-008",
+        "CHK-009",
+        "CHK-010"
+      ],
+      "issue_ids": [
+        "ISS-007"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Structured Data (JSON-LD)",
+      "status": "WARNING",
+      "score": 5.0,
+      "related_layers": [
+        5,
+        11,
+        17
+      ],
+      "dependency_note": "Changes here affect layers 5, 11, 17.",
+      "pass_items": [
+        "Organization schema on home",
+        "Product + Offer schema on 2 of 3 product pages"
+      ],
+      "fail_items": [
+        "No LocalBusiness / CafeOrCoffeeShop schema for the two cafés",
+        "No BreadcrumbList on product or blog pages",
+        "FAQ page has no FAQPage markup",
+        "Single Origin Highlands product page has no Product schema"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-011",
+        "CHK-012",
+        "CHK-013",
+        "CHK-014",
+        "CHK-015",
+        "CHK-016"
+      ],
+      "issue_ids": [
+        "ISS-002",
+        "ISS-004"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Crawling & Indexing",
+      "status": "WARNING",
+      "score": 6.0,
+      "related_layers": [
+        16
+      ],
+      "dependency_note": "Changes here affect layers 16.",
+      "pass_items": [
+        "robots.txt reachable and declares sitemap",
+        "sitemap.xml lists 16 URLs",
+        "HTTPS enforced with single 301 hop"
+      ],
+      "fail_items": [
+        "/menu-2023 returns 200 with an empty template (soft 404)",
+        "/old-shop still linked from footer and returns 404",
+        "sitemap.xml omits /es/ and two blog posts"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-017",
+        "CHK-018",
+        "CHK-019",
+        "CHK-020",
+        "CHK-021",
+        "CHK-022",
+        "CHK-085"
+      ],
+      "issue_ids": [
+        "ISS-001"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "AI Search Optimization",
+      "status": "WARNING",
+      "score": 4.5,
+      "related_layers": [
+        3,
+        11,
+        21
+      ],
+      "dependency_note": "Changes here affect layers 3, 11, 21.",
+      "pass_items": [
+        "GPTBot, ClaudeBot and PerplexityBot allowed in robots.txt",
+        "Brew guides answer clear how-to questions"
+      ],
+      "fail_items": [
+        "No llms.txt",
+        "Brand entity not described consistently across About and home",
+        "No concise answer blocks for 'best espresso beans' style queries"
+      ],
+      "pages_affected": [
+        "https://www.example-coffee.com/"
+      ],
+      "checks_ids": [
+        "CHK-023",
+        "CHK-024",
+        "CHK-025",
+        "CHK-026",
+        "CHK-027",
+        "CHK-083"
+      ],
+      "issue_ids": [
+        "ISS-003"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Content Structure",
+      "status": "PASS",
+      "score": 7.5,
+      "related_layers": [
+        14,
+        19
+      ],
+      "dependency_note": "Changes here affect layers 14, 19.",
+      "pass_items": [
+        "Single H1 on 16 of 18 pages",
+        "Logical H2/H3 hierarchy on blog posts",
+        "Product pages list tasting notes, origin and process"
+      ],
+      "fail_items": [
+        "/blog/how-to-store-coffee has no H1 (title is styled <div>)"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-028",
+        "CHK-029",
+        "CHK-030",
+        "CHK-031"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 7,
+      "name": "Technical Rendering",
+      "status": "PASS",
+      "score": 8.5,
+      "related_layers": [
+        10,
+        20
+      ],
+      "dependency_note": "Changes here affect layers 10, 20.",
+      "pass_items": [
+        "Server-rendered HTML contains main content",
+        "No client-only routes for indexable pages",
+        "No blocking JS errors in console"
+      ],
+      "fail_items": [],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-032",
+        "CHK-033",
+        "CHK-034"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 8,
+      "name": "Internal Linking",
+      "status": "WARNING",
+      "score": 6.0,
+      "related_layers": [
+        12,
+        13
+      ],
+      "dependency_note": "Changes here affect layers 12, 13.",
+      "pass_items": [
+        "Main navigation consistent across pages",
+        "Product pages link to related brew guides"
+      ],
+      "fail_items": [
+        "Blog posts do not link to matching products",
+        "Footer links to a 404 (/old-shop)"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-035",
+        "CHK-036",
+        "CHK-037",
+        "CHK-038"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 9,
+      "name": "Analytics & Data",
+      "status": "WARNING",
+      "score": 6.0,
+      "related_layers": [],
+      "dependency_note": "Independent measurement layer.",
+      "pass_items": [
+        "GA4 tag present on all pages",
+        "Consent banner loads before analytics"
+      ],
+      "fail_items": [
+        "No ecommerce events (add_to_cart, purchase) configured",
+        "Subscription sign-ups not tracked as conversions"
+      ],
+      "pages_affected": [
+        "All pages"
+      ],
+      "checks_ids": [
+        "CHK-039",
+        "CHK-040",
+        "CHK-041",
+        "CHK-042"
+      ],
+      "issue_ids": [
+        "ISS-008"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Core Web Vitals",
+      "status": "WARNING",
+      "score": 6.5,
+      "related_layers": [
+        7,
+        18,
+        20
+      ],
+      "dependency_note": "Changes here affect layers 7, 18, 20.",
+      "pass_items": [
+        "CLS 0.04 on mobile (lab)",
+        "INP within threshold in lab test"
+      ],
+      "fail_items": [
+        "LCP 3.4 s on mobile home (hero image 1.2 MB JPEG)",
+        "Two render-blocking font stylesheets"
+      ],
+      "pages_affected": [
+        "https://www.example-coffee.com/"
+      ],
+      "checks_ids": [
+        "CHK-043",
+        "CHK-044",
+        "CHK-045",
+        "CHK-046"
+      ],
+      "issue_ids": [
+        "ISS-005"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Entity SEO",
+      "status": "FAIL",
+      "score": 3.5,
+      "related_layers": [
+        3,
+        5
+      ],
+      "dependency_note": "Changes here affect layers 3, 5.",
+      "pass_items": [
+        "Brand name consistent in titles"
+      ],
+      "fail_items": [
+        "Organization schema has no sameAs links",
+        "No founder / foundingDate / address data in schema",
+        "About page does not state roasting location or year founded"
+      ],
+      "pages_affected": [
+        "All pages"
+      ],
+      "checks_ids": [
+        "CHK-047",
+        "CHK-048",
+        "CHK-049",
+        "CHK-050"
+      ],
+      "issue_ids": [
+        "ISS-002",
+        "ISS-003"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Information Architecture",
+      "status": "PASS",
+      "score": 7.0,
+      "related_layers": [
+        8
+      ],
+      "dependency_note": "Changes here affect layers 8.",
+      "pass_items": [
+        "Clear shop / subscriptions / cafés / journal hubs",
+        "Shallow depth: every product within 2 clicks"
+      ],
+      "fail_items": [
+        "No origin or brew-method category pages"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-051",
+        "CHK-052",
+        "CHK-053"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 13,
+      "name": "Internal Link Graph",
+      "status": "WARNING",
+      "score": 5.5,
+      "related_layers": [
+        8
+      ],
+      "dependency_note": "Changes here affect layers 8.",
+      "pass_items": [
+        "Home distributes links to all hubs"
+      ],
+      "fail_items": [
+        "Blog posts are near-orphans (1 inbound link each)",
+        "Anchor text 'read more' used on 9 links"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-054",
+        "CHK-055",
+        "CHK-056"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 14,
+      "name": "Content Depth",
+      "status": "WARNING",
+      "score": 6.0,
+      "related_layers": [
+        6
+      ],
+      "dependency_note": "Changes here affect layers 6.",
+      "pass_items": [
+        "Brew guides over 1,200 words with step photos"
+      ],
+      "fail_items": [
+        "Product pages under 150 words of unique copy",
+        "No comparison content (espresso vs filter roast)"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-057",
+        "CHK-058",
+        "CHK-059"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 15,
+      "name": "Search Intent Coverage",
+      "status": "WARNING",
+      "score": 5.5,
+      "related_layers": [
+        12,
+        14
+      ],
+      "dependency_note": "Changes here affect layers 12, 14.",
+      "pass_items": [
+        "Transactional intent covered by shop and subscriptions"
+      ],
+      "fail_items": [
+        "No pages for 'coffee gift' or 'office coffee' commercial intent",
+        "Local intent ('coffee near me') relies only on café pages"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-060",
+        "CHK-061",
+        "CHK-062"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 16,
+      "name": "Indexation Health",
+      "status": "WARNING",
+      "score": 6.0,
+      "related_layers": [
+        4
+      ],
+      "dependency_note": "Changes here affect layers 4.",
+      "pass_items": [
+        "No noindex on important pages"
+      ],
+      "fail_items": [
+        "Soft 404 on /menu-2023",
+        "Spanish /es/ page has no canonical and no hreflang pair"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-063",
+        "CHK-064",
+        "CHK-065"
+      ],
+      "issue_ids": [
+        "ISS-001",
+        "ISS-006"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "SERP Optimization",
+      "status": "WARNING",
+      "score": 5.0,
+      "related_layers": [
+        3
+      ],
+      "dependency_note": "Changes here affect layers 3.",
+      "pass_items": [
+        "Titles include primary keywords"
+      ],
+      "fail_items": [
+        "No FAQ rich result eligibility",
+        "Product pages lack review markup (no reviews collected yet)"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-066",
+        "CHK-067",
+        "CHK-068"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 18,
+      "name": "Performance SEO",
+      "status": "WARNING",
+      "score": 6.0,
+      "related_layers": [
+        10
+      ],
+      "dependency_note": "Changes here affect layers 10.",
+      "pass_items": [
+        "Images lazy-loaded below the fold"
+      ],
+      "fail_items": [
+        "Hero images not served as WebP/AVIF",
+        "No preconnect to font host"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-069",
+        "CHK-070",
+        "CHK-071"
+      ],
+      "issue_ids": [
+        "ISS-005"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Content Modularity",
+      "status": "WARNING",
+      "score": 5.0,
+      "related_layers": [
+        5,
+        6
+      ],
+      "dependency_note": "Changes here affect layers 5, 6.",
+      "pass_items": [
+        "Brew guides use numbered steps"
+      ],
+      "fail_items": [
+        "No short definition/answer paragraphs at the top of guides",
+        "Shipping FAQ answers are inside accordions without text in initial HTML"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-072",
+        "CHK-073",
+        "CHK-074"
+      ],
+      "issue_ids": []
+    },
+    {
+      "id": 20,
+      "name": "Image SEO",
+      "status": "WARNING",
+      "score": 5.5,
+      "related_layers": [
+        7,
+        10
+      ],
+      "dependency_note": "Changes here affect layers 7, 10.",
+      "pass_items": [
+        "Product images have descriptive file names"
+      ],
+      "fail_items": [
+        "14 images without alt text (mostly blog)",
+        "No width/height attributes on blog images"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-075",
+        "CHK-076",
+        "CHK-077"
+      ],
+      "issue_ids": [
+        "ISS-005",
+        "ISS-009"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "WebMCP & AI-Readiness",
+      "status": "WARNING",
+      "score": 4.0,
+      "related_layers": [
+        3,
+        5,
+        11
+      ],
+      "dependency_note": "Changes here affect layers 3, 5, 11.",
+      "pass_items": [
+        "Primary CTAs (Shop, Subscribe) resolve to working pages",
+        "PWA manifest present"
+      ],
+      "fail_items": [
+        "No /.well-known/actions.json",
+        "No llms.txt and no sameAs links",
+        "Hreflang missing between / and /es/"
+      ],
+      "pages_affected": [],
+      "checks_ids": [
+        "CHK-078",
+        "CHK-079",
+        "CHK-080",
+        "CHK-081",
+        "CHK-082",
+        "CHK-084"
+      ],
+      "issue_ids": [
+        "ISS-003",
+        "ISS-006"
+      ]
+    }
+  ],
+  "page_summary": {
+    "https://www.example-coffee.com/": {
+      "title": "Northwind Coffee Roasters | Specialty Coffee Roasted Weekly",
+      "title_length": 59,
+      "description": "Small-batch specialty coffee roasted every week. Shop beans, start a subscription or visit our cafés.",
+      "description_length": 101,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/",
+      "og_tags": true,
+      "json_ld": true,
+      "h1": true,
+      "h1_text": "Freshly roasted specialty coffee, delivered",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "PASS",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/shop": {
+      "title": "Shop Coffee Beans | Northwind Coffee Roasters",
+      "title_length": 45,
+      "description": "Browse single origins, espresso blends and decaf, roasted to order.",
+      "description_length": 67,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/shop",
+      "og_tags": true,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Shop coffee",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/shop/house-espresso-blend": {
+      "title": "House Espresso Blend | Northwind",
+      "title_length": 32,
+      "description": "Chocolate, hazelnut and dried cherry. Our everyday espresso blend.",
+      "description_length": 66,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/shop/house-espresso-blend",
+      "og_tags": false,
+      "json_ld": true,
+      "h1": true,
+      "h1_text": "House Espresso Blend",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/shop/single-origin-highlands": {
+      "title": "Single Origin Highlands | Northwind",
+      "title_length": 35,
+      "description": null,
+      "description_length": 0,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/shop/single-origin-highlands",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Single Origin Highlands",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "FAIL",
+      "http_status": 200,
+      "verification_note": "Meta description missing in initial and rendered HTML."
+    },
+    "https://www.example-coffee.com/shop/swiss-water-decaf": {
+      "title": "Swiss Water Decaf | Northwind",
+      "title_length": 29,
+      "description": "Full-flavoured decaf processed without chemicals.",
+      "description_length": 49,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/shop/swiss-water-decaf",
+      "og_tags": false,
+      "json_ld": true,
+      "h1": true,
+      "h1_text": "Swiss Water Decaf",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/subscriptions": {
+      "title": "Coffee Subscriptions | Northwind Coffee Roasters",
+      "title_length": 48,
+      "description": "Fresh coffee every 2 or 4 weeks. Pause or cancel anytime.",
+      "description_length": 57,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/subscriptions",
+      "og_tags": true,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Coffee subscriptions",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "PASS",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/wholesale": {
+      "title": "Wholesale Coffee for Cafés & Offices | Northwind",
+      "title_length": 48,
+      "description": "Wholesale specialty coffee, training and equipment support for cafés and offices.",
+      "description_length": 81,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/wholesale",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Wholesale partners",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/cafes": {
+      "title": "Our Cafés | Northwind Coffee Roasters",
+      "title_length": 37,
+      "description": "Visit our two neighbourhood cafés.",
+      "description_length": 34,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/cafes",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Our cafés",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/cafes/riverside": {
+      "title": "Riverside Café | Northwind Coffee Roasters",
+      "title_length": 42,
+      "description": "Opening hours, menu and directions for our Riverside café.",
+      "description_length": 58,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/cafes/riverside",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Riverside Café",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/cafes/old-town": {
+      "title": "Old Town Café | Northwind Coffee Roasters",
+      "title_length": 41,
+      "description": "Opening hours, menu and directions for our Old Town café.",
+      "description_length": 57,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/cafes/old-town",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Old Town Café",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/about": {
+      "title": "About Us | Northwind Coffee Roasters",
+      "title_length": 36,
+      "description": "Our story, sourcing principles and roasting approach.",
+      "description_length": 53,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/about",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "About Northwind",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/blog": {
+      "title": "Coffee Journal | Northwind",
+      "title_length": 26,
+      "description": "Brew guides, origin stories and roastery news.",
+      "description_length": 46,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/blog",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Coffee Journal",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/blog/pour-over-brew-guide": {
+      "title": "Pour-Over Brew Guide | Northwind",
+      "title_length": 32,
+      "description": "Step-by-step pour-over recipe with ratios, grind size and timing.",
+      "description_length": 65,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/blog/pour-over-brew-guide",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "How to brew great pour-over coffee",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/blog/espresso-grind-guide": {
+      "title": "Espresso Grind Size Guide | Northwind",
+      "title_length": 37,
+      "description": "Dial in espresso: grind size, dose and yield explained.",
+      "description_length": 55,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/blog/espresso-grind-guide",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Dialling in espresso",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/blog/how-to-store-coffee": {
+      "title": "How to Store Coffee Beans | Northwind",
+      "title_length": 37,
+      "description": "Keep beans fresh for longer with these storage tips.",
+      "description_length": 52,
+      "canonical": false,
+      "canonical_url": null,
+      "og_tags": false,
+      "json_ld": false,
+      "h1": false,
+      "h1_text": "",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "FAIL",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/faq": {
+      "title": "FAQ | Northwind Coffee Roasters",
+      "title_length": 31,
+      "description": "Shipping, subscriptions, grind options and returns.",
+      "description_length": 51,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/faq",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Frequently asked questions",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/contact": {
+      "title": "Contact | Northwind Coffee Roasters",
+      "title_length": 35,
+      "description": "Get in touch with our team.",
+      "description_length": 27,
+      "canonical": true,
+      "canonical_url": "https://www.example-coffee.com/contact",
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Contact us",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    },
+    "https://www.example-coffee.com/es/": {
+      "title": "Northwind Coffee Roasters | Café de especialidad",
+      "title_length": 48,
+      "description": "Café de especialidad tostado cada semana.",
+      "description_length": 41,
+      "canonical": false,
+      "canonical_url": null,
+      "og_tags": false,
+      "json_ld": false,
+      "h1": true,
+      "h1_text": "Café recién tostado",
+      "robots_meta": true,
+      "ga4": true,
+      "status": "WARNING",
+      "http_status": 200,
+      "verification_note": "Initial HTML fetched with curl; meta tags parsed from <head>."
+    }
+  },
+  "technical_files": {
+    "robots_txt": {
+      "exists": true,
+      "status": "PASS",
+      "issue": "",
+      "ai_bots_rules": true,
+      "sitemaps": [
+        "https://www.example-coffee.com/sitemap.xml"
+      ]
+    },
+    "sitemap_xml": {
+      "exists": true,
+      "status": "PASS",
+      "issue": "Omits /es/ and two blog posts"
+    },
+    "llms_txt": {
+      "exists": false,
+      "status": "404_NOT_FOUND",
+      "issue": "Not published"
+    },
+    "manifest_json": {
+      "exists": true,
+      "status": "PASS"
+    },
+    "favicon": {
+      "declared_in_html": true,
+      "status": "PASS"
+    }
+  },
+  "webmcp_readiness": {
+    "score": 3,
+    "max_score": 7,
+    "level": "Medium",
+    "checks": {
+      "actions_json": {
+        "status": "FAIL",
+        "url_status": 404,
+        "actions_count": 0,
+        "issue": "/.well-known/actions.json not found"
+      },
+      "ai_entity_credibility": {
+        "status": "WARNING",
+        "llms_txt": false,
+        "same_as_count": 0,
+        "aggregate_rating": false,
+        "issue": "Organization schema without sameAs; no llms.txt"
+      },
+      "hreflang_integrity": {
+        "status": "FAIL",
+        "bidirectional_ok": false,
+        "x_default_present": false,
+        "broken_hreflang_count": 0,
+        "issue": "/es/ not paired with / via hreflang"
+      },
+      "missing_schemas": {
+        "status": "WARNING",
+        "aggregate_rating_present": false,
+        "breadcrumb_coverage_pct": 0,
+        "faq_page_present": false,
+        "software_application_present": false,
+        "issue": "Product schema on 2/3 products; no BreadcrumbList or FAQPage"
+      },
+      "pwa_manifest": {
+        "status": "PASS",
+        "manifest_exists": true,
+        "icons_192": true,
+        "icons_512": true,
+        "service_worker": false,
+        "issue": "Manifest valid; no service worker (not required)"
+      },
+      "cta_clarity": {
+        "status": "PASS",
+        "dead_ctas_found": 0,
+        "issue": "Shop, Subscribe and Wholesale CTAs resolve correctly"
+      },
+      "ai_visibility_manual": {
+        "status": "PASS",
+        "last_run": "2026-10-28",
+        "queries_passing": 3,
+        "issue": "Mentioned in 3/5 test queries (brew-guide queries)"
+      }
+    },
+    "priority_fixes": [
+      {
+        "check_id": "21.2",
+        "fix": "Add sameAs links and publish llms.txt",
+        "effort": "2 hours",
+        "ai_search_impact": "High"
+      },
+      {
+        "check_id": "21.3",
+        "fix": "Add reciprocal hreflang between / and /es/",
+        "effort": "30 min",
+        "ai_search_impact": "Medium"
+      },
+      {
+        "check_id": "21.4",
+        "fix": "Add FAQPage and BreadcrumbList schema",
+        "effort": "2 hours",
+        "ai_search_impact": "Medium"
+      }
+    ]
+  },
+  "ai_agent_readiness": {
+    "discoverable_by_ai_agents": true,
+    "transactional_clarity": true,
+    "entity_trust_signals": false,
+    "multilingual_ai_safe": false,
+    "note": "AI crawlers are allowed and CTAs work, but entity signals and language pairing are weak."
+  },
+  "local_seo_analysis": {
+    "business_info": {
+      "name": "Northwind Coffee Roasters",
+      "industry": "Specialty coffee roaster, online shop and cafés",
+      "business_type": "Coffee roaster + cafés",
+      "address": "[Fictional address] Riverside & Old Town locations",
+      "primary_location": "Riverside café (fictional)",
+      "business_hours": "Mon-Sun 08:00-19:00",
+      "service_areas": [
+        "Riverside",
+        "Old Town",
+        "Nationwide shipping"
+      ]
+    },
+    "local_optimization_score": 4.0,
+    "local_seo_score": 4.0,
+    "gmb_status": "unverified",
+    "applicability": "Applicable — two physical cafés",
+    "issues_found": [
+      "No CafeOrCoffeeShop / LocalBusiness schema on café pages",
+      "Opening hours not marked up and not on the home page",
+      "No embedded map or directions link on café pages",
+      "Business profile verification status could not be confirmed"
+    ],
+    "strengths": [
+      "Dedicated page per café with address and hours in text",
+      "Café pages linked from main navigation",
+      "Consistent brand name across café pages"
+    ]
+  },
+  "critical_issues_summary": {
+    "total_critical_issues": 2,
+    "total_high_priority_issues": 3,
+    "total_warnings": 40,
+    "blocking_issues": [
+      "Soft 404 on /menu-2023 and footer link to a 404 page",
+      "Cafés invisible to local structured-data consumers (no LocalBusiness schema)"
+    ]
+  },
+  "competitive_analysis": {
+    "market_position": "Well-reviewed independent roaster with stronger brew-guide content than most local competitors, but weaker technical and entity signals than national subscription brands.",
+    "competitors": [
+      "Example Roastery Co. (example.org)",
+      "Sample Beans Subscription (example.net)"
+    ],
+    "competitive_gaps": [
+      "Competitors expose Product + Review markup on every SKU",
+      "National brands publish origin and brew-method hub pages",
+      "Competitor café pages carry full LocalBusiness data"
+    ],
+    "competitive_advantages": [
+      "In-depth brew guides with original photography",
+      "Two physical cafés reinforce local trust",
+      "Fast server-rendered pages with clean HTML"
+    ]
+  },
+  "recommendations_summary": {
+    "critical_fixes": 2,
+    "high_priority_fixes": 3,
+    "total_implementation_hours": 17,
+    "primary_focus": "Fix crawl hygiene, then make the brand and its cafés machine-readable (schema + llms.txt).",
+    "success_probability": "High — all fixes are template-level changes within 4 weeks"
+  },
+  "mexican_market_context": {
+    "local_seo_assessment": {
+      "spanish_language_coverage": "Only the home page has a Spanish version",
+      "local_directories": "Not verified in this audit",
+      "map_presence": "Café pages lack structured location data"
+    },
+    "industry_positioning": {
+      "specialty_coffee_demand": "Growing interest in single origins and home brewing",
+      "content_opportunity": "Spanish brew guides have little competition"
+    }
+  },
+  "ai_visibility_opportunities": {
+    "immediate_impact": {
+      "llms_txt": "Publish a concise brand and product summary",
+      "organization_schema": "Add sameAs and founding data"
+    },
+    "medium_term_benefits": {
+      "faq_schema": "Mark up shipping and subscription FAQs",
+      "answer_blocks": "Start each brew guide with a 2-sentence answer"
+    },
+    "long_term_positioning": {
+      "topical_authority": "Build origin and brew-method hubs",
+      "multilingual": "Translate top brew guides to Spanish with hreflang"
+    }
+  },
+  "executive_report": {
+    "overview": "Northwind Coffee Roasters has a fast, server-rendered site with strong brew-guide content. Its main weaknesses are crawl hygiene (a soft 404 and a broken footer link), missing local and entity structured data, and limited AI-search readiness. All recommended fixes are template-level and can ship within four weeks.",
+    "scope": "21 URLs discovered, 20 audited, 1 unverified (rate limited). 21 layers evaluated.",
+    "strengths": [
+      "Server-rendered HTML with no blocking JS errors (Layer 7)",
+      "Clear information architecture: every product within two clicks (Layer 12)",
+      "AI crawlers explicitly allowed in robots.txt (Layer 5)"
+    ],
+    "weaknesses": [
+      "Soft 404 and broken footer link (ISS-001)",
+      "No LocalBusiness schema for cafés (ISS-002)",
+      "Brand entity under-specified for AI assistants (ISS-003)"
+    ],
+    "key_findings": [
+      "ISS-001",
+      "ISS-002",
+      "ISS-003",
+      "ISS-005"
+    ],
+    "limitations": [
+      "No Google Search Console or GA4 access; projections are scenarios",
+      "/blog/cold-brew-recipe rate limited (429), not verified",
+      "Core Web Vitals from lab data only"
+    ],
+    "recommended_focus": "Week 1: crawl hygiene and café schema. Week 2: entity data, llms.txt and LCP. Weeks 3-4: hreflang, social tags, analytics and validation.",
+    "next_steps": [
+      "Approve roadmap",
+      "Grant read-only Search Console access",
+      "Re-audit on 2026-12-14"
+    ]
+  },
+  "checks": [
+    {
+      "id": "CHK-001",
+      "layer_id": 1,
+      "name": "Unique <title> on 17 of 18 indexable pages",
+      "criterion": "Unique <title> on 17 of 18 indexable pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Unique <title> on 17 of 18 indexable pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-002",
+      "layer_id": 1,
+      "name": "charset UTF-8 and viewport declared everywhere",
+      "criterion": "charset UTF-8 and viewport declared everywhere",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "charset UTF-8 and viewport declared everywhere.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-003",
+      "layer_id": 1,
+      "name": "Titles within 30-60 characters on 15 pages",
+      "criterion": "Titles within 30-60 characters on 15 pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Titles within 30-60 characters on 15 pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-004",
+      "layer_id": 1,
+      "name": "Meta description missing on /shop/single-origin-highlands",
+      "criterion": "Meta description missing on /shop/single-origin-highlands",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [
+        "EV-003"
+      ],
+      "issue_ids": [
+        "ISS-004"
+      ],
+      "detail": "Meta description missing on /shop/single-origin-highlands.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-005",
+      "layer_id": 1,
+      "name": "Canonical tag missing on 2 pages (/blog/how-to-store-coffee, /es/)",
+      "criterion": "Canonical tag missing on 2 pages (/blog/how-to-store-coffee, /es/)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Canonical tag missing on 2 pages (/blog/how-to-store-coffee, /es/).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-006",
+      "layer_id": 1,
+      "name": "No theme-color meta",
+      "criterion": "No theme-color meta",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No theme-color meta.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-007",
+      "layer_id": 2,
+      "name": "og:title and og:image present on home, /shop and /subscriptions",
+      "criterion": "og:title and og:image present on home, /shop and /subscriptions",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "og:title and og:image present on home, /shop and /subscriptions.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-008",
+      "layer_id": 2,
+      "name": "og:image missing on all product pages",
+      "criterion": "og:image missing on all product pages",
+      "status": "FAIL",
+      "severity": "high",
+      "priority": "High",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [
+        "ISS-007"
+      ],
+      "detail": "og:image missing on all product pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-009",
+      "layer_id": 2,
+      "name": "twitter:card not declared on any page",
+      "criterion": "twitter:card not declared on any page",
+      "status": "FAIL",
+      "severity": "high",
+      "priority": "High",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "twitter:card not declared on any page.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-010",
+      "layer_id": 2,
+      "name": "Blog posts share without preview image",
+      "criterion": "Blog posts share without preview image",
+      "status": "FAIL",
+      "severity": "high",
+      "priority": "High",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Blog posts share without preview image.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-011",
+      "layer_id": 3,
+      "name": "Organization schema on home",
+      "criterion": "Organization schema on home",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Organization schema on home.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-012",
+      "layer_id": 3,
+      "name": "Product + Offer schema on 2 of 3 product pages",
+      "criterion": "Product + Offer schema on 2 of 3 product pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Product + Offer schema on 2 of 3 product pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-013",
+      "layer_id": 3,
+      "name": "No LocalBusiness / CafeOrCoffeeShop schema for the two cafés",
+      "criterion": "No LocalBusiness / CafeOrCoffeeShop schema for the two cafés",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [
+        "EV-010"
+      ],
+      "issue_ids": [
+        "ISS-002"
+      ],
+      "detail": "No LocalBusiness / CafeOrCoffeeShop schema for the two cafés.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-014",
+      "layer_id": 3,
+      "name": "No BreadcrumbList on product or blog pages",
+      "criterion": "No BreadcrumbList on product or blog pages",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No BreadcrumbList on product or blog pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-015",
+      "layer_id": 3,
+      "name": "FAQ page has no FAQPage markup",
+      "criterion": "FAQ page has no FAQPage markup",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "FAQ page has no FAQPage markup.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-016",
+      "layer_id": 3,
+      "name": "Single Origin Highlands product page has no Product schema",
+      "criterion": "Single Origin Highlands product page has no Product schema",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Single Origin Highlands product page has no Product schema.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-017",
+      "layer_id": 4,
+      "name": "robots.txt reachable and declares sitemap",
+      "criterion": "robots.txt reachable and declares sitemap",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "robots.txt reachable and declares sitemap.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-018",
+      "layer_id": 4,
+      "name": "sitemap.xml lists 16 URLs",
+      "criterion": "sitemap.xml lists 16 URLs",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "sitemap.xml lists 16 URLs.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-019",
+      "layer_id": 4,
+      "name": "HTTPS enforced with single 301 hop",
+      "criterion": "HTTPS enforced with single 301 hop",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "HTTPS enforced with single 301 hop.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-020",
+      "layer_id": 4,
+      "name": "/menu-2023 returns 200 with an empty template (soft 404)",
+      "criterion": "/menu-2023 returns 200 with an empty template (soft 404)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [
+        "EV-001",
+        "EV-002"
+      ],
+      "issue_ids": [
+        "ISS-001"
+      ],
+      "detail": "/menu-2023 returns 200 with an empty template (soft 404).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-021",
+      "layer_id": 4,
+      "name": "/old-shop still linked from footer and returns 404",
+      "criterion": "/old-shop still linked from footer and returns 404",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "/old-shop still linked from footer and returns 404.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-022",
+      "layer_id": 4,
+      "name": "sitemap.xml omits /es/ and two blog posts",
+      "criterion": "sitemap.xml omits /es/ and two blog posts",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "sitemap.xml omits /es/ and two blog posts.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-023",
+      "layer_id": 5,
+      "name": "GPTBot, ClaudeBot and PerplexityBot allowed in robots.txt",
+      "criterion": "GPTBot, ClaudeBot and PerplexityBot allowed in robots.txt",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "GPTBot, ClaudeBot and PerplexityBot allowed in robots.txt.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-024",
+      "layer_id": 5,
+      "name": "Brew guides answer clear how-to questions",
+      "criterion": "Brew guides answer clear how-to questions",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Brew guides answer clear how-to questions.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-025",
+      "layer_id": 5,
+      "name": "No llms.txt",
+      "criterion": "No llms.txt",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No llms.txt.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-026",
+      "layer_id": 5,
+      "name": "Brand entity not described consistently across About and home",
+      "criterion": "Brand entity not described consistently across About and home",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Brand entity not described consistently across About and home.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-027",
+      "layer_id": 5,
+      "name": "No concise answer blocks for 'best espresso beans' style queries",
+      "criterion": "No concise answer blocks for 'best espresso beans' style queries",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No concise answer blocks for 'best espresso beans' style queries.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-028",
+      "layer_id": 6,
+      "name": "Single H1 on 16 of 18 pages",
+      "criterion": "Single H1 on 16 of 18 pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Single H1 on 16 of 18 pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-029",
+      "layer_id": 6,
+      "name": "Logical H2/H3 hierarchy on blog posts",
+      "criterion": "Logical H2/H3 hierarchy on blog posts",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Logical H2/H3 hierarchy on blog posts.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-030",
+      "layer_id": 6,
+      "name": "Product pages list tasting notes, origin and process",
+      "criterion": "Product pages list tasting notes, origin and process",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Product pages list tasting notes, origin and process.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-031",
+      "layer_id": 6,
+      "name": "/blog/how-to-store-coffee has no H1 (title is styled <div>)",
+      "criterion": "/blog/how-to-store-coffee has no H1 (title is styled <div>)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "/blog/how-to-store-coffee has no H1 (title is styled <div>).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-032",
+      "layer_id": 7,
+      "name": "Server-rendered HTML contains main content",
+      "criterion": "Server-rendered HTML contains main content",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Server-rendered HTML contains main content.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-033",
+      "layer_id": 7,
+      "name": "No client-only routes for indexable pages",
+      "criterion": "No client-only routes for indexable pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No client-only routes for indexable pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-034",
+      "layer_id": 7,
+      "name": "No blocking JS errors in console",
+      "criterion": "No blocking JS errors in console",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No blocking JS errors in console.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-035",
+      "layer_id": 8,
+      "name": "Main navigation consistent across pages",
+      "criterion": "Main navigation consistent across pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Main navigation consistent across pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-036",
+      "layer_id": 8,
+      "name": "Product pages link to related brew guides",
+      "criterion": "Product pages link to related brew guides",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Product pages link to related brew guides.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-037",
+      "layer_id": 8,
+      "name": "Blog posts do not link to matching products",
+      "criterion": "Blog posts do not link to matching products",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Blog posts do not link to matching products.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-038",
+      "layer_id": 8,
+      "name": "Footer links to a 404 (/old-shop)",
+      "criterion": "Footer links to a 404 (/old-shop)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Footer links to a 404 (/old-shop).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-039",
+      "layer_id": 9,
+      "name": "GA4 tag present on all pages",
+      "criterion": "GA4 tag present on all pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "GA4 tag present on all pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-040",
+      "layer_id": 9,
+      "name": "Consent banner loads before analytics",
+      "criterion": "Consent banner loads before analytics",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Consent banner loads before analytics.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-041",
+      "layer_id": 9,
+      "name": "No ecommerce events (add_to_cart, purchase) configured",
+      "criterion": "No ecommerce events (add_to_cart, purchase) configured",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [
+        "ISS-008"
+      ],
+      "detail": "No ecommerce events (add_to_cart, purchase) configured.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-042",
+      "layer_id": 9,
+      "name": "Subscription sign-ups not tracked as conversions",
+      "criterion": "Subscription sign-ups not tracked as conversions",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Subscription sign-ups not tracked as conversions.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-043",
+      "layer_id": 10,
+      "name": "CLS 0.04 on mobile (lab)",
+      "criterion": "CLS 0.04 on mobile (lab)",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "CLS 0.04 on mobile (lab).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-044",
+      "layer_id": 10,
+      "name": "INP within threshold in lab test",
+      "criterion": "INP within threshold in lab test",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "INP within threshold in lab test.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-045",
+      "layer_id": 10,
+      "name": "LCP 3.4 s on mobile home (hero image 1.2 MB JPEG)",
+      "criterion": "LCP 3.4 s on mobile home (hero image 1.2 MB JPEG)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [
+        "EV-007"
+      ],
+      "issue_ids": [
+        "ISS-005"
+      ],
+      "detail": "LCP 3.4 s on mobile home (hero image 1.2 MB JPEG).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-046",
+      "layer_id": 10,
+      "name": "Two render-blocking font stylesheets",
+      "criterion": "Two render-blocking font stylesheets",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Two render-blocking font stylesheets.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-047",
+      "layer_id": 11,
+      "name": "Brand name consistent in titles",
+      "criterion": "Brand name consistent in titles",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Brand name consistent in titles.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-048",
+      "layer_id": 11,
+      "name": "Organization schema has no sameAs links",
+      "criterion": "Organization schema has no sameAs links",
+      "status": "FAIL",
+      "severity": "high",
+      "priority": "High",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [
+        "EV-004",
+        "EV-005"
+      ],
+      "issue_ids": [
+        "ISS-003"
+      ],
+      "detail": "Organization schema has no sameAs links.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-049",
+      "layer_id": 11,
+      "name": "No founder / foundingDate / address data in schema",
+      "criterion": "No founder / foundingDate / address data in schema",
+      "status": "FAIL",
+      "severity": "high",
+      "priority": "High",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No founder / foundingDate / address data in schema.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-050",
+      "layer_id": 11,
+      "name": "About page does not state roasting location or year founded",
+      "criterion": "About page does not state roasting location or year founded",
+      "status": "FAIL",
+      "severity": "high",
+      "priority": "High",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "About page does not state roasting location or year founded.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-051",
+      "layer_id": 12,
+      "name": "Clear shop / subscriptions / cafés / journal hubs",
+      "criterion": "Clear shop / subscriptions / cafés / journal hubs",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Clear shop / subscriptions / cafés / journal hubs.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-052",
+      "layer_id": 12,
+      "name": "Shallow depth: every product within 2 clicks",
+      "criterion": "Shallow depth: every product within 2 clicks",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Shallow depth: every product within 2 clicks.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-053",
+      "layer_id": 12,
+      "name": "No origin or brew-method category pages",
+      "criterion": "No origin or brew-method category pages",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No origin or brew-method category pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-054",
+      "layer_id": 13,
+      "name": "Home distributes links to all hubs",
+      "criterion": "Home distributes links to all hubs",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Home distributes links to all hubs.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-055",
+      "layer_id": 13,
+      "name": "Blog posts are near-orphans (1 inbound link each)",
+      "criterion": "Blog posts are near-orphans (1 inbound link each)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Blog posts are near-orphans (1 inbound link each).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-056",
+      "layer_id": 13,
+      "name": "Anchor text 'read more' used on 9 links",
+      "criterion": "Anchor text 'read more' used on 9 links",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Anchor text 'read more' used on 9 links.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-057",
+      "layer_id": 14,
+      "name": "Brew guides over 1,200 words with step photos",
+      "criterion": "Brew guides over 1,200 words with step photos",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Brew guides over 1,200 words with step photos.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-058",
+      "layer_id": 14,
+      "name": "Product pages under 150 words of unique copy",
+      "criterion": "Product pages under 150 words of unique copy",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Product pages under 150 words of unique copy.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-059",
+      "layer_id": 14,
+      "name": "No comparison content (espresso vs filter roast)",
+      "criterion": "No comparison content (espresso vs filter roast)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No comparison content (espresso vs filter roast).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-060",
+      "layer_id": 15,
+      "name": "Transactional intent covered by shop and subscriptions",
+      "criterion": "Transactional intent covered by shop and subscriptions",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Transactional intent covered by shop and subscriptions.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-061",
+      "layer_id": 15,
+      "name": "No pages for 'coffee gift' or 'office coffee' commercial intent",
+      "criterion": "No pages for 'coffee gift' or 'office coffee' commercial intent",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No pages for 'coffee gift' or 'office coffee' commercial intent.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-062",
+      "layer_id": 15,
+      "name": "Local intent ('coffee near me') relies only on café pages",
+      "criterion": "Local intent ('coffee near me') relies only on café pages",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Local intent ('coffee near me') relies only on café pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-063",
+      "layer_id": 16,
+      "name": "No noindex on important pages",
+      "criterion": "No noindex on important pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No noindex on important pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-064",
+      "layer_id": 16,
+      "name": "Soft 404 on /menu-2023",
+      "criterion": "Soft 404 on /menu-2023",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Soft 404 on /menu-2023.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-065",
+      "layer_id": 16,
+      "name": "Spanish /es/ page has no canonical and no hreflang pair",
+      "criterion": "Spanish /es/ page has no canonical and no hreflang pair",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [
+        "EV-008"
+      ],
+      "issue_ids": [
+        "ISS-006"
+      ],
+      "detail": "Spanish /es/ page has no canonical and no hreflang pair.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-066",
+      "layer_id": 17,
+      "name": "Titles include primary keywords",
+      "criterion": "Titles include primary keywords",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Titles include primary keywords.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-067",
+      "layer_id": 17,
+      "name": "No FAQ rich result eligibility",
+      "criterion": "No FAQ rich result eligibility",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No FAQ rich result eligibility.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-068",
+      "layer_id": 17,
+      "name": "Product pages lack review markup (no reviews collected yet)",
+      "criterion": "Product pages lack review markup (no reviews collected yet)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Product pages lack review markup (no reviews collected yet).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-069",
+      "layer_id": 18,
+      "name": "Images lazy-loaded below the fold",
+      "criterion": "Images lazy-loaded below the fold",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Images lazy-loaded below the fold.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-070",
+      "layer_id": 18,
+      "name": "Hero images not served as WebP/AVIF",
+      "criterion": "Hero images not served as WebP/AVIF",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Hero images not served as WebP/AVIF.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-071",
+      "layer_id": 18,
+      "name": "No preconnect to font host",
+      "criterion": "No preconnect to font host",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No preconnect to font host.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-072",
+      "layer_id": 19,
+      "name": "Brew guides use numbered steps",
+      "criterion": "Brew guides use numbered steps",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Brew guides use numbered steps.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-073",
+      "layer_id": 19,
+      "name": "No short definition/answer paragraphs at the top of guides",
+      "criterion": "No short definition/answer paragraphs at the top of guides",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No short definition/answer paragraphs at the top of guides.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-074",
+      "layer_id": 19,
+      "name": "Shipping FAQ answers are inside accordions without text in initial HTML",
+      "criterion": "Shipping FAQ answers are inside accordions without text in initial HTML",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Shipping FAQ answers are inside accordions without text in initial HTML.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-075",
+      "layer_id": 20,
+      "name": "Product images have descriptive file names",
+      "criterion": "Product images have descriptive file names",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Product images have descriptive file names.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-076",
+      "layer_id": 20,
+      "name": "14 images without alt text (mostly blog)",
+      "criterion": "14 images without alt text (mostly blog)",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [
+        "ISS-009"
+      ],
+      "detail": "14 images without alt text (mostly blog).",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-077",
+      "layer_id": 20,
+      "name": "No width/height attributes on blog images",
+      "criterion": "No width/height attributes on blog images",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No width/height attributes on blog images.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-078",
+      "layer_id": 21,
+      "name": "Primary CTAs (Shop, Subscribe) resolve to working pages",
+      "criterion": "Primary CTAs (Shop, Subscribe) resolve to working pages",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Primary CTAs (Shop, Subscribe) resolve to working pages.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-079",
+      "layer_id": 21,
+      "name": "PWA manifest present",
+      "criterion": "PWA manifest present",
+      "status": "PASS",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "PWA manifest present.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-080",
+      "layer_id": 21,
+      "name": "No /.well-known/actions.json",
+      "criterion": "No /.well-known/actions.json",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No /.well-known/actions.json.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-081",
+      "layer_id": 21,
+      "name": "No llms.txt and no sameAs links",
+      "criterion": "No llms.txt and no sameAs links",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "No llms.txt and no sameAs links.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-082",
+      "layer_id": 21,
+      "name": "Hreflang missing between / and /es/",
+      "criterion": "Hreflang missing between / and /es/",
+      "status": "WARNING",
+      "severity": "medium",
+      "priority": "Medium",
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Hreflang missing between / and /es/.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-083",
+      "layer_id": 5,
+      "name": "AI assistant answer test (ChatGPT / Perplexity)",
+      "criterion": "AI assistant answer test (ChatGPT / Perplexity)",
+      "status": "NOT_TESTED",
+      "severity": "info",
+      "priority": "Medium",
+      "affected_url_ids": [],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Manual AI-visibility queries not executed in this run.",
+      "method": "Not executed",
+      "verified_at": null,
+      "applicability": "applicable"
+    },
+    {
+      "id": "CHK-084",
+      "layer_id": 21,
+      "name": "PWA service worker",
+      "criterion": "PWA service worker",
+      "status": "N/A",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Site does not offer an offline/PWA experience; not applicable.",
+      "method": "HTTP fetch + HTML parse",
+      "verified_at": "2026-11-02",
+      "applicability": "N/A"
+    },
+    {
+      "id": "CHK-085",
+      "layer_id": 4,
+      "name": "Crawl of /blog/cold-brew-recipe",
+      "criterion": "Crawl of /blog/cold-brew-recipe",
+      "status": "NOT_TESTED",
+      "severity": "info",
+      "priority": "Low",
+      "affected_url_ids": [
+        "PG-021"
+      ],
+      "evidence_ids": [],
+      "issue_ids": [],
+      "detail": "Server answered 429 (rate limited); page not verified.",
+      "method": "Not executed",
+      "verified_at": null,
+      "applicability": "applicable"
+    }
+  ],
+  "issues": [
+    {
+      "id": "ISS-001",
+      "title": "Soft 404 and broken footer link waste crawl budget",
+      "layer_ids": [
+        4,
+        16
+      ],
+      "check_ids": [
+        "CHK-020"
+      ],
+      "affected_url_ids": [
+        "PG-019",
+        "PG-020"
+      ],
+      "severity": "high",
+      "priority": "Critical",
+      "status": "DETECTED",
+      "cause": "Legacy menu page left as an empty template; footer still links to a removed shop URL.",
+      "impact": "Search engines index a thin page and users hit a dead end from every page footer.",
+      "evidence_ids": [
+        "EV-001",
+        "EV-002"
+      ],
+      "fix_ids": [
+        "FIX-001"
+      ],
+      "task_ids": [
+        "TASK-001"
+      ],
+      "verification_ids": [
+        "VAL-001"
+      ]
+    },
+    {
+      "id": "ISS-002",
+      "title": "Cafés have no LocalBusiness structured data",
+      "layer_ids": [
+        3,
+        11
+      ],
+      "check_ids": [
+        "CHK-013"
+      ],
+      "affected_url_ids": [
+        "PG-009",
+        "PG-010"
+      ],
+      "severity": "high",
+      "priority": "Critical",
+      "status": "DETECTED",
+      "cause": "Café pages were built as plain content pages.",
+      "impact": "Weak eligibility for local packs and map-based answers in AI assistants.",
+      "evidence_ids": [
+        "EV-010"
+      ],
+      "fix_ids": [
+        "FIX-002"
+      ],
+      "task_ids": [
+        "TASK-002"
+      ],
+      "verification_ids": [
+        "VAL-002"
+      ]
+    },
+    {
+      "id": "ISS-003",
+      "title": "Brand entity is under-specified for AI search",
+      "layer_ids": [
+        5,
+        11,
+        21
+      ],
+      "check_ids": [
+        "CHK-048"
+      ],
+      "affected_url_ids": [
+        "PG-001",
+        "PG-011"
+      ],
+      "severity": "high",
+      "priority": "High",
+      "status": "DETECTED",
+      "cause": "Organization schema is minimal and no llms.txt summary exists.",
+      "impact": "AI assistants may describe the brand inaccurately or omit it from recommendations.",
+      "evidence_ids": [
+        "EV-004",
+        "EV-005"
+      ],
+      "fix_ids": [
+        "FIX-003"
+      ],
+      "task_ids": [
+        "TASK-003"
+      ],
+      "verification_ids": [
+        "VAL-003"
+      ]
+    },
+    {
+      "id": "ISS-004",
+      "title": "Product page missing description and Product schema",
+      "layer_ids": [
+        1,
+        3
+      ],
+      "check_ids": [
+        "CHK-004"
+      ],
+      "affected_url_ids": [
+        "PG-004"
+      ],
+      "severity": "medium",
+      "priority": "High",
+      "status": "DETECTED",
+      "cause": "Template field left empty when the product was added.",
+      "impact": "Lower CTR and no product rich results for this SKU.",
+      "evidence_ids": [
+        "EV-003"
+      ],
+      "fix_ids": [
+        "FIX-004"
+      ],
+      "task_ids": [
+        "TASK-004"
+      ],
+      "verification_ids": [
+        "VAL-004"
+      ]
+    },
+    {
+      "id": "ISS-005",
+      "title": "Slow mobile LCP on the home page",
+      "layer_ids": [
+        10,
+        18,
+        20
+      ],
+      "check_ids": [
+        "CHK-045"
+      ],
+      "affected_url_ids": [
+        "PG-001"
+      ],
+      "severity": "medium",
+      "priority": "High",
+      "status": "DETECTED",
+      "cause": "Uncompressed JPEG hero image and render-blocking fonts.",
+      "impact": "Poorer mobile experience; risk of failing Core Web Vitals.",
+      "evidence_ids": [
+        "EV-007"
+      ],
+      "fix_ids": [
+        "FIX-005"
+      ],
+      "task_ids": [
+        "TASK-005"
+      ],
+      "verification_ids": [
+        "VAL-005"
+      ]
+    },
+    {
+      "id": "ISS-006",
+      "title": "Spanish page lacks canonical and hreflang",
+      "layer_ids": [
+        1,
+        16,
+        21
+      ],
+      "check_ids": [
+        "CHK-065"
+      ],
+      "affected_url_ids": [
+        "PG-018",
+        "PG-001"
+      ],
+      "severity": "medium",
+      "priority": "Medium",
+      "status": "DETECTED",
+      "cause": "Language variant added without international SEO tags.",
+      "impact": "Possible duplicate/competing results across languages.",
+      "evidence_ids": [
+        "EV-008"
+      ],
+      "fix_ids": [
+        "FIX-006"
+      ],
+      "task_ids": [
+        "TASK-006"
+      ],
+      "verification_ids": [
+        "VAL-006"
+      ]
+    },
+    {
+      "id": "ISS-007",
+      "title": "Open Graph tags missing on product and blog pages",
+      "layer_ids": [
+        2
+      ],
+      "check_ids": [
+        "CHK-008"
+      ],
+      "affected_url_ids": [
+        "PG-003",
+        "PG-013"
+      ],
+      "severity": "medium",
+      "priority": "Medium",
+      "status": "DETECTED",
+      "cause": "OG tags only configured on three templates.",
+      "impact": "Shared links render without preview image, reducing social CTR.",
+      "evidence_ids": [],
+      "fix_ids": [
+        "FIX-007"
+      ],
+      "task_ids": [
+        "TASK-007"
+      ],
+      "verification_ids": [
+        "VAL-007"
+      ]
+    },
+    {
+      "id": "ISS-008",
+      "title": "No ecommerce conversion tracking",
+      "layer_ids": [
+        9
+      ],
+      "check_ids": [
+        "CHK-041"
+      ],
+      "affected_url_ids": [
+        "PG-002",
+        "PG-006"
+      ],
+      "severity": "medium",
+      "priority": "Medium",
+      "status": "DETECTED",
+      "cause": "GA4 installed with default page_view only.",
+      "impact": "Impossible to attribute revenue to organic or AI-referred traffic.",
+      "evidence_ids": [],
+      "fix_ids": [
+        "FIX-008"
+      ],
+      "task_ids": [
+        "TASK-008"
+      ],
+      "verification_ids": [
+        "VAL-008"
+      ]
+    },
+    {
+      "id": "ISS-009",
+      "title": "Images without alt text",
+      "layer_ids": [
+        20
+      ],
+      "check_ids": [
+        "CHK-076"
+      ],
+      "affected_url_ids": [
+        "PG-013",
+        "PG-014"
+      ],
+      "severity": "low",
+      "priority": "Low",
+      "status": "DETECTED",
+      "cause": "Blog editor does not require alt text.",
+      "impact": "Accessibility gap and missed image-search visibility.",
+      "evidence_ids": [],
+      "fix_ids": [
+        "FIX-009"
+      ],
+      "task_ids": [
+        "TASK-009"
+      ],
+      "verification_ids": [
+        "VAL-009"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-001",
+      "kind": "http_response",
+      "source_url": "https://www.example-coffee.com/menu-2023",
+      "observation": "Returns HTTP 200 with an empty page template and no main content (soft 404).",
+      "http_status": 200,
+      "sample": "<main></main>",
+      "confidence": "high",
+      "method": "curl -I + HTML diff",
+      "limitation": null
+    },
+    {
+      "id": "EV-002",
+      "kind": "http_response",
+      "source_url": "https://www.example-coffee.com/old-shop",
+      "observation": "Returns HTTP 404 but is linked from the site footer on every page.",
+      "http_status": 404,
+      "sample": null,
+      "confidence": "high",
+      "method": "curl",
+      "limitation": null
+    },
+    {
+      "id": "EV-003",
+      "kind": "html_head",
+      "source_url": "https://www.example-coffee.com/shop/single-origin-highlands",
+      "observation": "No <meta name=\"description\"> and no Product JSON-LD in initial HTML.",
+      "http_status": 200,
+      "sample": null,
+      "confidence": "high",
+      "method": "HTML parse",
+      "limitation": null
+    },
+    {
+      "id": "EV-004",
+      "kind": "json_ld",
+      "source_url": "https://www.example-coffee.com/",
+      "observation": "Organization schema present but without sameAs, address or foundingDate.",
+      "http_status": 200,
+      "sample": "{\"@type\":\"Organization\",\"name\":\"Northwind Coffee Roasters\"}",
+      "confidence": "high",
+      "method": "JSON-LD extraction",
+      "limitation": null
+    },
+    {
+      "id": "EV-005",
+      "kind": "file_check",
+      "source_url": "https://www.example-coffee.com/llms.txt",
+      "observation": "llms.txt returns 404.",
+      "http_status": 404,
+      "sample": null,
+      "confidence": "high",
+      "method": "curl",
+      "limitation": null
+    },
+    {
+      "id": "EV-006",
+      "kind": "file_check",
+      "source_url": "https://www.example-coffee.com/.well-known/actions.json",
+      "observation": "actions.json returns 404.",
+      "http_status": 404,
+      "sample": null,
+      "confidence": "high",
+      "method": "curl",
+      "limitation": null
+    },
+    {
+      "id": "EV-007",
+      "kind": "lab_performance",
+      "source_url": "https://www.example-coffee.com/",
+      "observation": "Mobile lab LCP 3.4 s; LCP element is a 1.2 MB JPEG hero image.",
+      "http_status": 200,
+      "sample": null,
+      "confidence": "medium",
+      "method": "Lighthouse (lab, simulated 4G)",
+      "limitation": "Lab data only; no CrUX field data available."
+    },
+    {
+      "id": "EV-008",
+      "kind": "html_head",
+      "source_url": "https://www.example-coffee.com/es/",
+      "observation": "No canonical and no hreflang annotations linking /es/ and /.",
+      "http_status": 200,
+      "sample": null,
+      "confidence": "high",
+      "method": "HTML parse",
+      "limitation": null
+    },
+    {
+      "id": "EV-009",
+      "kind": "http_response",
+      "source_url": "https://www.example-coffee.com/blog/cold-brew-recipe",
+      "observation": "Server responded 429 Too Many Requests on three attempts.",
+      "http_status": 429,
+      "sample": null,
+      "confidence": "low",
+      "method": "curl with backoff",
+      "limitation": "Page content not verified; not classified as an SEO error."
+    },
+    {
+      "id": "EV-010",
+      "kind": "html_body",
+      "source_url": "https://www.example-coffee.com/cafes/riverside",
+      "observation": "Address and opening hours shown as text only; no LocalBusiness markup.",
+      "http_status": 200,
+      "sample": null,
+      "confidence": "high",
+      "method": "HTML parse",
+      "limitation": null
+    }
+  ],
+  "fixes": [
+    {
+      "id": "FIX-001",
+      "issue_ids": [
+        "ISS-001"
+      ],
+      "title": "Redirect legacy URLs and fix footer link",
+      "rationale": "Search engines index a thin page and users hit a dead end from every page footer.",
+      "instructions": [
+        "Add 301 from /menu-2023 to /cafes",
+        "Add 301 from /old-shop to /shop",
+        "Update footer link to /shop"
+      ],
+      "code_snippets": [
+        {
+          "language": "nginx",
+          "target_file_or_location": "server block",
+          "code": "location = /menu-2023 { return 301 /cafes; }\nlocation = /old-shop  { return 301 /shop; }",
+          "placeholders": [],
+          "ready_to_apply": false,
+          "caution": "Confirm the hosting platform supports server-level redirects."
+        }
+      ],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 1.0,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-001"
+      ],
+      "implementation_status": "PROPOSED"
+    },
+    {
+      "id": "FIX-002",
+      "issue_ids": [
+        "ISS-002"
+      ],
+      "title": "Add CafeOrCoffeeShop JSON-LD to each café page",
+      "rationale": "Weak eligibility for local packs and map-based answers in AI assistants.",
+      "instructions": [
+        "Add one JSON-LD block per café with address, geo and openingHours",
+        "Validate with Rich Results Test"
+      ],
+      "code_snippets": [
+        {
+          "language": "json",
+          "target_file_or_location": "/cafes/riverside <head>",
+          "code": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"CafeOrCoffeeShop\",\n  \"name\": \"Northwind Coffee Roasters — Riverside\",\n  \"url\": \"https://www.example-coffee.com/cafes/riverside\",\n  \"address\": { \"@type\": \"PostalAddress\", \"streetAddress\": \"[STREET]\", \"addressLocality\": \"[CITY]\" },\n  \"openingHours\": \"Mo-Su 08:00-19:00\"\n}",
+          "placeholders": [
+            "[STREET]",
+            "[CITY]"
+          ],
+          "ready_to_apply": false,
+          "caution": "Use the exact address shown on the page."
+        }
+      ],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 2.0,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-002"
+      ],
+      "implementation_status": "PROPOSED"
+    },
+    {
+      "id": "FIX-003",
+      "issue_ids": [
+        "ISS-003"
+      ],
+      "title": "Strengthen Organization entity and publish llms.txt",
+      "rationale": "AI assistants may describe the brand inaccurately or omit it from recommendations.",
+      "instructions": [
+        "Add sameAs, foundingDate and address to Organization schema",
+        "Publish /llms.txt with a short brand and product summary"
+      ],
+      "code_snippets": [
+        {
+          "language": "markdown",
+          "target_file_or_location": "/llms.txt",
+          "code": "# Northwind Coffee Roasters\n> Small-batch specialty coffee roaster with an online shop, subscriptions and two cafés.\n\n## Key pages\n- [Shop](https://www.example-coffee.com/shop)\n- [Subscriptions](https://www.example-coffee.com/subscriptions)\n- [Brew guides](https://www.example-coffee.com/blog)",
+          "placeholders": [],
+          "ready_to_apply": true,
+          "caution": "llms.txt is an emerging convention, not a ranking factor."
+        }
+      ],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 2.5,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-003"
+      ],
+      "implementation_status": "PROPOSED"
+    },
+    {
+      "id": "FIX-004",
+      "issue_ids": [
+        "ISS-004"
+      ],
+      "title": "Complete product meta and schema",
+      "rationale": "Lower CTR and no product rich results for this SKU.",
+      "instructions": [
+        "Write a 140-160 character meta description",
+        "Add Product + Offer JSON-LD"
+      ],
+      "code_snippets": [],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 0.75,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-004"
+      ],
+      "implementation_status": "PROPOSED"
+    },
+    {
+      "id": "FIX-005",
+      "issue_ids": [
+        "ISS-005"
+      ],
+      "title": "Optimise hero image and fonts",
+      "rationale": "Poorer mobile experience; risk of failing Core Web Vitals.",
+      "instructions": [
+        "Serve hero as AVIF/WebP under 200 KB",
+        "Add fetchpriority=high to the LCP image",
+        "Preconnect to the font host and use font-display: swap"
+      ],
+      "code_snippets": [
+        {
+          "language": "html",
+          "target_file_or_location": "home hero",
+          "code": "<img src=\"/img/hero.avif\" width=\"1600\" height=\"900\" fetchpriority=\"high\" alt=\"Freshly roasted coffee beans\">",
+          "placeholders": [],
+          "ready_to_apply": false,
+          "caution": "Regenerate the image at the correct size first."
+        }
+      ],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 3.0,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-005"
+      ],
+      "implementation_status": "PROPOSED"
+    },
+    {
+      "id": "FIX-006",
+      "issue_ids": [
+        "ISS-006"
+      ],
+      "title": "Add hreflang pair and self-canonicals",
+      "rationale": "Possible duplicate/competing results across languages.",
+      "instructions": [
+        "Add hreflang en/es/x-default to / and /es/",
+        "Add self-referencing canonical to /es/"
+      ],
+      "code_snippets": [
+        {
+          "language": "html",
+          "target_file_or_location": "<head> of / and /es/",
+          "code": "<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.example-coffee.com/\">\n<link rel=\"alternate\" hreflang=\"es\" href=\"https://www.example-coffee.com/es/\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.example-coffee.com/\">",
+          "placeholders": [],
+          "ready_to_apply": true,
+          "caution": "Annotations must be reciprocal."
+        }
+      ],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 1.0,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-006"
+      ],
+      "implementation_status": "PROPOSED"
+    },
+    {
+      "id": "FIX-007",
+      "issue_ids": [
+        "ISS-007"
+      ],
+      "title": "Add Open Graph and Twitter Card tags to product and blog templates",
+      "rationale": "Shared links render without preview image, reducing social CTR.",
+      "instructions": [
+        "Map og:title/description/image to template fields",
+        "Add twitter:card summary_large_image"
+      ],
+      "code_snippets": [],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 1.5,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-007"
+      ],
+      "implementation_status": "PROPOSED"
+    },
+    {
+      "id": "FIX-008",
+      "issue_ids": [
+        "ISS-008"
+      ],
+      "title": "Configure GA4 ecommerce events",
+      "rationale": "Impossible to attribute revenue to organic or AI-referred traffic.",
+      "instructions": [
+        "Push view_item, add_to_cart, begin_checkout and purchase",
+        "Mark subscription sign-up as a key event"
+      ],
+      "code_snippets": [],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 4.0,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-008"
+      ],
+      "implementation_status": "PROPOSED"
+    },
+    {
+      "id": "FIX-009",
+      "issue_ids": [
+        "ISS-009"
+      ],
+      "title": "Add alt text to blog images",
+      "rationale": "Accessibility gap and missed image-search visibility.",
+      "instructions": [
+        "Backfill alt text for 14 images",
+        "Make alt text required in the CMS"
+      ],
+      "code_snippets": [],
+      "platform_constraints": [],
+      "prerequisites": [],
+      "estimated_hours": 1.0,
+      "risk": "low",
+      "rollback": "Revert the template/config change.",
+      "validation_ids": [
+        "VAL-009"
+      ],
+      "implementation_status": "PROPOSED"
+    }
+  ],
+  "roadmap_tasks": [
+    {
+      "id": "TASK-001",
+      "title": "Redirect legacy URLs and fix footer link",
+      "issue_ids": [
+        "ISS-001"
+      ],
+      "fix_ids": [
+        "FIX-001"
+      ],
+      "week": 1,
+      "priority": "Critical",
+      "owner_role": "Developer",
+      "estimated_hours": 1.0,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "Soft 404 and broken footer link waste crawl budget no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-001"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    },
+    {
+      "id": "TASK-002",
+      "title": "Add CafeOrCoffeeShop JSON-LD to each café page",
+      "issue_ids": [
+        "ISS-002"
+      ],
+      "fix_ids": [
+        "FIX-002"
+      ],
+      "week": 1,
+      "priority": "Critical",
+      "owner_role": "Developer",
+      "estimated_hours": 2.0,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "Cafés have no LocalBusiness structured data no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-002"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    },
+    {
+      "id": "TASK-003",
+      "title": "Strengthen Organization entity and publish llms.txt",
+      "issue_ids": [
+        "ISS-003"
+      ],
+      "fix_ids": [
+        "FIX-003"
+      ],
+      "week": 2,
+      "priority": "High",
+      "owner_role": "Developer",
+      "estimated_hours": 2.5,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "Brand entity is under-specified for AI search no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-003"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    },
+    {
+      "id": "TASK-004",
+      "title": "Complete product meta and schema",
+      "issue_ids": [
+        "ISS-004"
+      ],
+      "fix_ids": [
+        "FIX-004"
+      ],
+      "week": 2,
+      "priority": "High",
+      "owner_role": "Content editor",
+      "estimated_hours": 0.75,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "Product page missing description and Product schema no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-004"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    },
+    {
+      "id": "TASK-005",
+      "title": "Optimise hero image and fonts",
+      "issue_ids": [
+        "ISS-005"
+      ],
+      "fix_ids": [
+        "FIX-005"
+      ],
+      "week": 2,
+      "priority": "High",
+      "owner_role": "Developer",
+      "estimated_hours": 3.0,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "Slow mobile LCP on the home page no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-005"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    },
+    {
+      "id": "TASK-006",
+      "title": "Add hreflang pair and self-canonicals",
+      "issue_ids": [
+        "ISS-006"
+      ],
+      "fix_ids": [
+        "FIX-006"
+      ],
+      "week": 3,
+      "priority": "Medium",
+      "owner_role": "Developer",
+      "estimated_hours": 1.0,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "Spanish page lacks canonical and hreflang no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-006"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    },
+    {
+      "id": "TASK-007",
+      "title": "Add Open Graph and Twitter Card tags to product and blog templates",
+      "issue_ids": [
+        "ISS-007"
+      ],
+      "fix_ids": [
+        "FIX-007"
+      ],
+      "week": 3,
+      "priority": "Medium",
+      "owner_role": "Developer",
+      "estimated_hours": 1.5,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "Open Graph tags missing on product and blog pages no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-007"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    },
+    {
+      "id": "TASK-008",
+      "title": "Configure GA4 ecommerce events",
+      "issue_ids": [
+        "ISS-008"
+      ],
+      "fix_ids": [
+        "FIX-008"
+      ],
+      "week": 3,
+      "priority": "Medium",
+      "owner_role": "Analytics",
+      "estimated_hours": 4.0,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "No ecommerce conversion tracking no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-008"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    },
+    {
+      "id": "TASK-009",
+      "title": "Add alt text to blog images",
+      "issue_ids": [
+        "ISS-009"
+      ],
+      "fix_ids": [
+        "FIX-009"
+      ],
+      "week": 4,
+      "priority": "Low",
+      "owner_role": "Content editor",
+      "estimated_hours": 1.0,
+      "depends_on_task_ids": [],
+      "acceptance_criteria": [
+        "Images without alt text no longer reproducible"
+      ],
+      "validation_ids": [
+        "VAL-009"
+      ],
+      "status": "PENDING",
+      "due_date": null,
+      "completed_at": null
+    }
+  ],
+  "validation_plan": [
+    {
+      "id": "VAL-001",
+      "issue_ids": [
+        "ISS-001"
+      ],
+      "task_ids": [
+        "TASK-001"
+      ],
+      "test_name": "Verify: Redirect legacy URLs and fix footer link",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "curl",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": [
+        "EV-001",
+        "EV-002"
+      ]
+    },
+    {
+      "id": "VAL-002",
+      "issue_ids": [
+        "ISS-002"
+      ],
+      "task_ids": [
+        "TASK-002"
+      ],
+      "test_name": "Verify: Add CafeOrCoffeeShop JSON-LD to each café page",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "Rich Results Test",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": [
+        "EV-010"
+      ]
+    },
+    {
+      "id": "VAL-003",
+      "issue_ids": [
+        "ISS-003"
+      ],
+      "task_ids": [
+        "TASK-003"
+      ],
+      "test_name": "Verify: Strengthen Organization entity and publish llms.txt",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "curl",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": [
+        "EV-004",
+        "EV-005"
+      ]
+    },
+    {
+      "id": "VAL-004",
+      "issue_ids": [
+        "ISS-004"
+      ],
+      "task_ids": [
+        "TASK-004"
+      ],
+      "test_name": "Verify: Complete product meta and schema",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "Rich Results Test",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": [
+        "EV-003"
+      ]
+    },
+    {
+      "id": "VAL-005",
+      "issue_ids": [
+        "ISS-005"
+      ],
+      "task_ids": [
+        "TASK-005"
+      ],
+      "test_name": "Verify: Optimise hero image and fonts",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "Lighthouse",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": [
+        "EV-007"
+      ]
+    },
+    {
+      "id": "VAL-006",
+      "issue_ids": [
+        "ISS-006"
+      ],
+      "task_ids": [
+        "TASK-006"
+      ],
+      "test_name": "Verify: Add hreflang pair and self-canonicals",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "curl",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": [
+        "EV-008"
+      ]
+    },
+    {
+      "id": "VAL-007",
+      "issue_ids": [
+        "ISS-007"
+      ],
+      "task_ids": [
+        "TASK-007"
+      ],
+      "test_name": "Verify: Add Open Graph and Twitter Card tags to product and blog templates",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "curl",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": []
+    },
+    {
+      "id": "VAL-008",
+      "issue_ids": [
+        "ISS-008"
+      ],
+      "task_ids": [
+        "TASK-008"
+      ],
+      "test_name": "Verify: Configure GA4 ecommerce events",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "curl",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": []
+    },
+    {
+      "id": "VAL-009",
+      "issue_ids": [
+        "ISS-009"
+      ],
+      "task_ids": [
+        "TASK-009"
+      ],
+      "test_name": "Verify: Add alt text to blog images",
+      "method": "Re-crawl affected URLs and compare with evidence",
+      "tool": "curl",
+      "expected_result": "Issue resolved on all affected URLs.",
+      "observed_result": null,
+      "status": "NOT_TESTED",
+      "executed_at": null,
+      "evidence_ids": []
+    }
+  ],
+  "pages": [
+    {
+      "id": "PG-001",
+      "url": "https://www.example-coffee.com/",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "core_page",
+      "check_ids": [
+        "CHK-001",
+        "CHK-002",
+        "CHK-003",
+        "CHK-004",
+        "CHK-005",
+        "CHK-006",
+        "CHK-007",
+        "CHK-008",
+        "CHK-009",
+        "CHK-010",
+        "CHK-011",
+        "CHK-012",
+        "CHK-013",
+        "CHK-014",
+        "CHK-015",
+        "CHK-016",
+        "CHK-017",
+        "CHK-018",
+        "CHK-019",
+        "CHK-020",
+        "CHK-021",
+        "CHK-022",
+        "CHK-023",
+        "CHK-024",
+        "CHK-025",
+        "CHK-026",
+        "CHK-027",
+        "CHK-028",
+        "CHK-029",
+        "CHK-030",
+        "CHK-031",
+        "CHK-032",
+        "CHK-033",
+        "CHK-034",
+        "CHK-035",
+        "CHK-036",
+        "CHK-037",
+        "CHK-038",
+        "CHK-039",
+        "CHK-040",
+        "CHK-041",
+        "CHK-042",
+        "CHK-043",
+        "CHK-044",
+        "CHK-045",
+        "CHK-046",
+        "CHK-047",
+        "CHK-048",
+        "CHK-049",
+        "CHK-050",
+        "CHK-051",
+        "CHK-052",
+        "CHK-053",
+        "CHK-054",
+        "CHK-055",
+        "CHK-056",
+        "CHK-057",
+        "CHK-058",
+        "CHK-059",
+        "CHK-060",
+        "CHK-061",
+        "CHK-062",
+        "CHK-063",
+        "CHK-064",
+        "CHK-065",
+        "CHK-066",
+        "CHK-067",
+        "CHK-068",
+        "CHK-069",
+        "CHK-070",
+        "CHK-071",
+        "CHK-072",
+        "CHK-073",
+        "CHK-074",
+        "CHK-075",
+        "CHK-076",
+        "CHK-077",
+        "CHK-078",
+        "CHK-079",
+        "CHK-080",
+        "CHK-081",
+        "CHK-082"
+      ],
+      "issue_ids": [
+        "ISS-003",
+        "ISS-005",
+        "ISS-006"
+      ],
+      "evidence_ids": [
+        "EV-004",
+        "EV-007"
+      ]
+    },
+    {
+      "id": "PG-002",
+      "url": "https://www.example-coffee.com/shop",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "category",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-008"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-003",
+      "url": "https://www.example-coffee.com/shop/house-espresso-blend",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "product",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-007"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-004",
+      "url": "https://www.example-coffee.com/shop/single-origin-highlands",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "product",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-004"
+      ],
+      "evidence_ids": [
+        "EV-003"
+      ]
+    },
+    {
+      "id": "PG-005",
+      "url": "https://www.example-coffee.com/shop/swiss-water-decaf",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "product",
+      "check_ids": [],
+      "issue_ids": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-006",
+      "url": "https://www.example-coffee.com/subscriptions",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "conversion",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-008"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-007",
+      "url": "https://www.example-coffee.com/wholesale",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "conversion",
+      "check_ids": [],
+      "issue_ids": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-008",
+      "url": "https://www.example-coffee.com/cafes",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "location",
+      "check_ids": [],
+      "issue_ids": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-009",
+      "url": "https://www.example-coffee.com/cafes/riverside",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "location",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-002"
+      ],
+      "evidence_ids": [
+        "EV-010"
+      ]
+    },
+    {
+      "id": "PG-010",
+      "url": "https://www.example-coffee.com/cafes/old-town",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "location",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-002"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-011",
+      "url": "https://www.example-coffee.com/about",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "core_page",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-003"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-012",
+      "url": "https://www.example-coffee.com/blog",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "blog_index",
+      "check_ids": [],
+      "issue_ids": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-013",
+      "url": "https://www.example-coffee.com/blog/pour-over-brew-guide",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "blog_post",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-007",
+        "ISS-009"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-014",
+      "url": "https://www.example-coffee.com/blog/espresso-grind-guide",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "blog_post",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-009"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-015",
+      "url": "https://www.example-coffee.com/blog/how-to-store-coffee",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "blog_post",
+      "check_ids": [],
+      "issue_ids": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-016",
+      "url": "https://www.example-coffee.com/faq",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "core_page",
+      "check_ids": [],
+      "issue_ids": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-017",
+      "url": "https://www.example-coffee.com/contact",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "core_page",
+      "check_ids": [],
+      "issue_ids": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "PG-018",
+      "url": "https://www.example-coffee.com/es/",
+      "discovery_sources": [
+        "navigation"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "language_variant",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-006"
+      ],
+      "evidence_ids": [
+        "EV-008"
+      ]
+    },
+    {
+      "id": "PG-019",
+      "url": "https://www.example-coffee.com/menu-2023",
+      "discovery_sources": [
+        "pattern_probing"
+      ],
+      "fetch_status": 200,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "soft_404",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-001"
+      ],
+      "evidence_ids": [
+        "EV-001"
+      ]
+    },
+    {
+      "id": "PG-020",
+      "url": "https://www.example-coffee.com/old-shop",
+      "discovery_sources": [
+        "pattern_probing"
+      ],
+      "fetch_status": 404,
+      "audit_status": "AUDITED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "broken",
+      "check_ids": [],
+      "issue_ids": [
+        "ISS-001"
+      ],
+      "evidence_ids": [
+        "EV-002"
+      ]
+    },
+    {
+      "id": "PG-021",
+      "url": "https://www.example-coffee.com/blog/cold-brew-recipe",
+      "discovery_sources": [
+        "internal_link"
+      ],
+      "fetch_status": 429,
+      "audit_status": "UNVERIFIED",
+      "content_type": "text/html",
+      "redirect_target": null,
+      "classification": "unverified",
+      "check_ids": [
+        "CHK-085"
+      ],
+      "issue_ids": [],
+      "evidence_ids": [
+        "EV-009"
+      ]
+    }
+  ],
+  "data_quality": {
+    "schema_valid": true,
+    "errors": [],
+    "warnings": [
+      "1 URL rate limited (429) and left UNVERIFIED",
+      "Core Web Vitals based on lab data only"
+    ],
+    "counts": {
+      "checks": 85,
+      "issues": 9,
+      "evidence": 10,
+      "fixes": 9,
+      "pages": 21,
+      "pages_audited": 20,
+      "layers": 21,
+      "classification": {
+        "core_page": 4,
+        "category": 1,
+        "product": 3,
+        "conversion": 2,
+        "location": 3,
+        "blog_index": 1,
+        "blog_post": 3,
+        "language_variant": 1,
+        "soft_404": 1,
+        "broken": 1,
+        "unverified": 1
+      }
+    },
+    "unresolved_discrepancies": [],
+    "coverage_notes": "All URLs from sitemap, navigation and pattern probing were requested once; the rate-limited URL was retried 3 times with backoff.",
+    "assumptions": [
+      "Café addresses on the site are current",
+      "Spanish page is intended to be indexed"
+    ],
+    "compatibility_validation": {
+      "reference_schema": "embedded_contract_only",
+      "checked_paths": 212,
+      "reference_root_sections": 29,
+      "missing_paths": [],
+      "type_mismatches": [],
+      "not_applicable_paths": [],
+      "passed": true,
+      "nullable_exceptions_note": "Null used where data was not observable (e.g. due_date, observed_result)."
+    }
+  },
+  "source_provenance": {
+    "audit_source": "Public website crawl (fictional sample data)",
+    "audit_engine_version": "seo_master_audit_codex v2.6.1",
+    "generated_at": "2026-11-02T10:30:00Z",
+    "methods": [
+      "curl",
+      "HTML parsing",
+      "JSON-LD extraction",
+      "Lighthouse lab",
+      "Manual AI queries"
+    ],
+    "external_access": [],
+    "previous_audit_available": true,
+    "history": [
+      {
+        "audit_date": "2026-08-10",
+        "seo_score": 5.1
+      }
+    ]
+  },
+  "export_views": {
+    "report_section_ids": [
+      "executive_report",
+      "layers",
+      "issues"
+    ],
+    "scorecard_check_ids": [
+      "CHK-001",
+      "CHK-002",
+      "CHK-003",
+      "CHK-004",
+      "CHK-005",
+      "CHK-006",
+      "CHK-007",
+      "CHK-008",
+      "CHK-009",
+      "CHK-010",
+      "CHK-011",
+      "CHK-012",
+      "CHK-013",
+      "CHK-014",
+      "CHK-015",
+      "CHK-016",
+      "CHK-017",
+      "CHK-018",
+      "CHK-019",
+      "CHK-020",
+      "CHK-021",
+      "CHK-022",
+      "CHK-023",
+      "CHK-024",
+      "CHK-025",
+      "CHK-026",
+      "CHK-027",
+      "CHK-028",
+      "CHK-029",
+      "CHK-030",
+      "CHK-031",
+      "CHK-032",
+      "CHK-033",
+      "CHK-034",
+      "CHK-035",
+      "CHK-036",
+      "CHK-037",
+      "CHK-038",
+      "CHK-039",
+      "CHK-040",
+      "CHK-041",
+      "CHK-042",
+      "CHK-043",
+      "CHK-044",
+      "CHK-045",
+      "CHK-046",
+      "CHK-047",
+      "CHK-048",
+      "CHK-049",
+      "CHK-050",
+      "CHK-051",
+      "CHK-052",
+      "CHK-053",
+      "CHK-054",
+      "CHK-055",
+      "CHK-056",
+      "CHK-057",
+      "CHK-058",
+      "CHK-059",
+      "CHK-060",
+      "CHK-061",
+      "CHK-062",
+      "CHK-063",
+      "CHK-064",
+      "CHK-065",
+      "CHK-066",
+      "CHK-067",
+      "CHK-068",
+      "CHK-069",
+      "CHK-070",
+      "CHK-071",
+      "CHK-072",
+      "CHK-073",
+      "CHK-074",
+      "CHK-075",
+      "CHK-076",
+      "CHK-077",
+      "CHK-078",
+      "CHK-079",
+      "CHK-080",
+      "CHK-081",
+      "CHK-082",
+      "CHK-083",
+      "CHK-084",
+      "CHK-085"
+    ],
+    "code_fix_ids": [
+      "FIX-001",
+      "FIX-002",
+      "FIX-003",
+      "FIX-005",
+      "FIX-006"
+    ],
+    "roadmap_task_ids": [
+      "TASK-001",
+      "TASK-002",
+      "TASK-003",
+      "TASK-004",
+      "TASK-005",
+      "TASK-006",
+      "TASK-007",
+      "TASK-008",
+      "TASK-009"
+    ]
+  }
+}
